@@ -1,0 +1,2018 @@
+﻿"name","label","data_type","value_labels","n_missing","complete_rate","min","median","max","mean","sd","n_value_labels","hist","format.spss","display_width"
+"ingreso_independientes",NA,"numeric",NA,49485,0.12026666666666663,"0.0e+00","2.0e+02"," 13550",371.06947228381375,642.1541104301093,NA,"▇▁▁▁▁","F8.2",NA
+"ingreso_agro",NA,"numeric",NA,52040,0.07484444444444449,"2.5e-01","2.8e+01","  1000",58.19395882818686,91.89423772113958,NA,"▇▁▁▁▁","F8.2",NA
+"ingreso_pensiones",NA,"numeric",NA,55295,0.01697777777777776,"3.8e+00","4.0e+02","  2500",453.5853507853403,324.4620649816934,NA,"▇▂▁▁▁","F8.2",NA
+"ingreso_remesas",NA,"numeric",NA,51139,0.09086222222222218,"1.7e+00","1.5e+02","  2400",201.55272745059676,180.11087418015322,NA,"▇▁▁▁▁","F8.2",NA
+"edicion","Año de levantamiento","numeric",NA,0,1,"2.0e+03","2.0e+03","  2023",2023,0,NA,"▁▁▇▁▁","F4.0","6"
+"lote","Lote","numeric",NA,0,1,"2.0e+00","6.3e+03"," 12421",6396.788924444444,3774.928974400944,NA,"▇▆▅▇▇","F5.0","6"
+"tipo","Tipo","haven_labelled","0. Hogar principal,
+1. Doble hogar,
+2. Doble hogar,
+3. Doble hogar",0,1,"   0","   0.0","    4",0.02992,0.19770612209756466,4,"▇▁▁▁▁▁▁▁","F1.0","6"
+"folio","Folio","numeric",NA,0,1,"2.0e-01","9.8e+01","  1683",107.06624355555556,78.04885308300247,NA,"▇▁▁▁▁","F6.3","6"
+"viv","Vivienda","haven_labelled","0. Vivienda en muestra,
+1. Vivienda extra",0,1,"   0","   0.0","    1",0.046328888888888885,0.21019825980309287,2,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r101","Número de orden","numeric",NA,0,1,"1.0e+00","2.0e+00","    15",2.477742222222222,1.4866208860148784,NA,"▇▂▁▁▁","F2.0","6"
+"idboleta","Identificador de hogar","numeric",NA,0,1,"3.0e+05","3.1e+05","319406",308450.92832,6194.251514751133,NA,"▇▇▇▇▇","F7.0","6"
+"fac00","Factor de expansión","numeric",NA,0,1,"1.3e+01","8.0e+01","   386",112.69121777777778,90.80006207529124,NA,"▇▃▁▁▁","F4.0","6"
+"area","Área geográfica","haven_labelled","0. Rural,
+1. Urbano",0,1,"   0","   1.0","    1",0.5412266666666666,0.49830189269426733,2,"▇▁▁▁▁▁▁▇","F1.0","6"
+"region","Región geográfica","haven_labelled","1. Occidental,
+2. Central I,
+3. Central II,
+4. Oriental,
+5. Área metropolitana de San Salvador",0,1,"   1","   3.0","    5",2.8888000000000003,1.4065208284642772,5,"▇▇▁▆▁▇▁▆","F1.0","6"
+"correlativo","Correlativo","numeric",NA,0,1,"2.0e+00","6.3e+03"," 12421",6396.788924444444,3774.928974400944,NA,"▇▆▅▇▇","F5.0","6"
+"municauto","Municipios autorrepresentados","numeric",NA,0,1,"1.0e+00","1.3e+01","    50",22.697066666666665,20.1455979690596,NA,"▇▃▁▁▆","F2.0","6"
+"estratoarea","Estratos","haven_labelled","1010. Ahuachapán rural,
+1011. Ahuachapán urbano,
+1030. Atiquizaya rural,
+1031. Atiquizaya urbano,
+1070. Jujutla rural,
+1071. Jujutla urbano,
+1080. San Francisco Menéndez rural,
+1081. San Francisco Menéndez urbano,
+1500. Resto Ahuachapán rural,
+1501. Resto Ahuachapán urbano,
+2010. Candelaria de la Frontera rural,
+2011. Candelaria de la Frontera urbano,
+2020. Coatepeque rural,
+2021. Coatepeque urbano,
+2030. Chalchuapa rural,
+2031. Chalchuapa urbano,
+2070. Metapán rural,
+2071. Metapán urbano,
+2100. Santa Ana rural,
+2101. Santa Ana urbano,
+2500. Resto Santa Ana rural,
+2501. Resto Santa Ana urbano,
+3010. Acajutla rural,
+3011. Acajutla urbano,
+3060. Izalco rural,
+3061. Izalco urbano,
+3080. Nahuizalco rural,
+3081. Nahuizalco urbano,
+3110. San Antonio del Monto rural,
+3111. San Antonio del Monte urbano,
+3150. Sonsonate rural,
+3151. Sonsonate urbano,
+3500. Resto Sonsonate rural,
+3501. Resto Sonsonate urbano,
+4070. Chalatenango rural,
+4071. Chalatenango urbano,
+4500. Resto Chalatenango rural,
+4501. Resto Chalatenango urbano,
+5011. Antiguo Cuscatlán urbano,
+5020. Ciudad Arce rural,
+5021. Ciudad Arce urbano,
+5030. Colón rural,
+5031. Colón urbano,
+5090. La Libertad rural,
+5091. La Libertad urbano,
+5110. Santa Tecla rural,
+5111. Santa Tecla urbano,
+5120. Quezaltepeque rural,
+5121. Quezaltepeque urbano,
+5150. San Juan Opico rural,
+5151. San Juan Opico urbano,
+5500. Resto La Libertad rural,
+5501. Resto La Libertad urbano,
+6021. Apopa urbano,
+6031. Ayutuxtepeque urbano,
+6041. Cuscatancingo urbano,
+6071. Ilopango urbano,
+6081. Mejicanos urbano,
+6090. Nejapa rural,
+6091. Nejapa urbano,
+6100. Panchimalco rural,
+6101. Panchimalco urbano,
+6121. San Marcos rural,
+6130. San Martín rural,
+6131. San Martín urbano,
+6141. San Salvador urbano,
+6160. Santo Tomás rural,
+6161. Santo Tomás urbano,
+6171. Soyapango urbano,
+6180. Tonacatepeque rural,
+6181. Tonacatepeque urbano,
+6190. Ciudad Delgado rural,
+6191. Ciudad Delgado urbano,
+6500. Resto San Salvador rural,
+6501. Resto San Salvador urbano,
+7020. Cojutepeque rural,
+7021. Cojutepeque urbano,
+7500. Resto Cuscatlán rural,
+7501. Resto Cuscatlán urbano,
+8050. Olocuilta Rural,
+8051. Olocuilta urbano,
+8190. Santiago Nonualco rural,
+8191. Santiago Nonualco urbano,
+8210. Zacatecoluca rural,
+8211. Zacatecoluca urbano,
+8500. Resto La Paz rural,
+8501. Resto La Paz urbano,
+9030. Ilobasco rural,
+9031. Ilobasco urbano,
+9060. Sensuntepeque rural,
+9061. Sensuntepeque urbano,
+9500. Resto Cabañas rural,
+9501. Resto Cabañas urbano,
+10100. San Vicente rural,
+10101. San Vicente urbano,
+10500. Resto San Vicente rural,
+10501. Resto San Vicente urbano,
+11080. Jiquilisco rural,
+11081. Jiquilisco urbano,
+11230. Usulután rural,
+11231. Usulután urbano,
+11500. Resto Usulután rural,
+11501. Resto Usulután urbano,
+12020. Ciudad Barrios rural,
+12021. Ciudad Barrios urbano,
+12170. San Miguel rural,
+12171. San Miguel urbano,
+12500. Resto San Miguel rural,
+12501. Resto San Miguel urbano,
+13190. San Francisco Gotera rural,
+13191. San Francisco Gotera urbano,
+13500. Resto Morazán rural,
+13501. Resto Morazán urbano,
+14040. Conchagua rural,
+14041. Conchagua urbano,
+14080. La Unión rural,
+14081. La Unión urbano,
+14500. Resto La Unión rural,
+14501. Resto La Unión urbano",0,1,"1010","6171.0","14501",7237.147448888891,3931.8170605582613,119,"▆▃▆▇▅▃▃▅","F5.0","6"
+"codigomunic","Códigos municipales","haven_labelled","101. Ahuachapán,
+102. Apaneca,
+103. Atiquizaya,
+104. Concepción de Ataco,
+105. El Refugio,
+106. Guaymango,
+107. Jujutla,
+108. San Francisco Menéndez,
+109. San Lorenzo,
+110. San Pedro Puxtla,
+111. Tacuba,
+112. Turín,
+201. Candelaria de la Frontera,
+202. Coatepeque,
+203. Chalchuapa,
+204. El Congo,
+205. El Porvenir,
+206. Masahuat,
+207. Metapán,
+208. San Antonio Pajonal,
+209. San Sebastián Salitrillo,
+210. Santa Ana,
+211. Santa Rosa Guachipilín,
+212. Santiago de la Frontera,
+213. Texistepeque,
+301. Acajutla,
+302. Armenia,
+303. Caluco,
+304. Cuisnahuat,
+305. Santa Isabel Ishuatán,
+306. Izalco,
+307. Juayúa,
+308. Nahuizalco,
+309. Nahuilingo,
+310. Salcoatitán,
+311. San Antonio del Monte,
+312. San Julián,
+313. Santa Catarina Masahuat,
+314. Santo Domingo de Guzmán,
+315. Sonsonate,
+316. Sonzacate,
+401. Agua Caliente,
+402. Arcatao,
+403. Azacualpa,
+404. Citalá,
+405. Comalapa,
+406. Concepción Quezaltepeque,
+407. Chalatenango,
+408. Dulce Nombre de María,
+409. El Carrizal,
+410. El Paraíso,
+411. La Laguna,
+412. La Palma,
+413. La Reina,
+414. Las Vueltas,
+415. Nombre de Jesús,
+416. Nueva Concepción,
+417. Nueva Trinidad,
+418. Ojos de Agua,
+419. Potonico,
+420. San Antonio de la Cruz,
+421. San Antonio los Ranchos,
+422. San Fernando,
+423. San Francisco Lempa,
+424. San Francisco Morazán,
+425. San Ignacio,
+426. San Isidro Labrador,
+427. Cancasque,
+428. Las Flores,
+429. San Luis del Carmen,
+430. San Miguel de Mercedes,
+431. San Rafael,
+432. Santa Rita,
+433. Tejutla,
+501. Antiguo Cuscatlán,
+502. Ciudad Arce,
+503. Colón,
+504. Comasagua,
+505. Chiltiupán,
+506. Huizúcar,
+507. Jayaque,
+508. Jicalapa,
+509. La Libertad,
+510. Nuevo Cuscatlán,
+511. Santa Tecla,
+512. Quezaltepeque,
+513. Sacacoyo,
+514. San José Villanueva,
+515. San Juan Opico,
+516. San Matías,
+517. San Pablo Tacachico,
+518. Tamanique,
+519. Talnique,
+520. Teotepeque,
+521. Tepecoyo,
+522. Zaragoza,
+601. Aguilares,
+602. Apopa,
+603. Ayutuxtepeque,
+604. Cuscatancingo,
+605. El Paisnal,
+606. Guazapa,
+607. Ilopango,
+608. Mejicanos,
+609. Nejapa,
+610. Panchimalco,
+611. Rosario de Mora,
+612. San Marcos,
+613. San Martín,
+614. San Salvador,
+615. Santiago Texacuangos,
+616. Santo Tomás,
+617. Soyapango,
+618. Tonacatepeque,
+619. Ciudad Delgado,
+701. Candelaria,
+702. Cojutepeque,
+703. El Carmen,
+704. El Rosario,
+705. Monte San Juan,
+706. Oratorio De Concepción,
+707. San Bartolomé Perulapía,
+708. San Cristóbal,
+709. San José Guayabal,
+710. San Pedro Perulapán,
+711. San Rafael Cedros,
+712. San Ramón,
+713. Santa Cruz Analquito,
+714. Santa Cruz Michapa,
+715. Suchitoto,
+716. Tenancingo,
+801. Cuyultitán,
+802. El Rosario,
+803. Jerusalén,
+804. Mercedes La Ceiba,
+805. Olocuilta,
+806. Paraíso de Osorio,
+807. San Antonio Masahuat,
+808. San Emigdio,
+809. San Francisco Chinameca,
+810. San Juan Nonualco,
+811. San Juan Talpa,
+812. San Juan Tepezontes,
+813. San Luis Talpa,
+814. San Miguel Tepezontes,
+815. San Pedro Masahuat,
+816. San Pedro Nonualco,
+817. San Rafael Obrajuelo,
+818. Santa María Ostuma,
+819. Santiago Nonualco,
+820. Tapalhuaca,
+821. Zacatecoluca,
+822. San Luis la Herradura,
+901. Cinquera,
+902. Guacotecti,
+903. Ilobasco,
+904. Jutiapa,
+905. San Isidro,
+906. Sensuntepeque,
+907. Tejutepeque,
+908. Victoria,
+909. Dolores,
+1001. Apastepeque,
+1002. Guadalupe,
+1003. San Cayetano Istepeque,
+1004. Santa Clara,
+1005. Santo Domingo,
+1006. San Esteban Catarina,
+1007. San Ildefonso,
+1008. San Lorenzo,
+1009. San Sebastián,
+1010. San Vicente,
+1011. Tecoluca,
+1012. Tepetitán,
+1013. Verapaz,
+1101. Alegría,
+1102. Berlín,
+1103. California,
+1104. Concepción Batres,
+1105. El Triunfo,
+1106. Ereguayquín,
+1107. Estanzuelas,
+1108. Jiquilisco,
+1109. Jucuapa,
+1110. Jucuarán,
+1111. Mercedes Umaña,
+1112. Nueva Granada,
+1113. Ozatlán,
+1114. Puerto El Triunfo,
+1115. San Agustín,
+1116. San Buena Ventura,
+1117. San Dionisio,
+1118. Santa Elena,
+1119. San Francisco Javier,
+1120. Santa María,
+1121. Santiago de María,
+1122. Tecapán,
+1123. Usulután,
+1201. Carolina,
+1202. Ciudad Barrios,
+1203. Comacarán,
+1204. Chapeltique,
+1205. Chinameca,
+1206. Chirilagua,
+1207. El Tránsito,
+1208. Lolotique,
+1209. Moncagua,
+1210. Nueva Guadalupe,
+1211. Nuevo Edén de San Juan,
+1212. Quelepa,
+1213. San Antonio,
+1214. San Gerardo,
+1215. San Jorge,
+1216. San Luis de la Reina,
+1217. San Miguel,
+1218. San Rafael Oriente,
+1219. Sesori,
+1220. Uluazapa,
+1301. Arambala,
+1302. Cacaopera,
+1303. Corinto,
+1304. Chilanga,
+1305. Delicias de Concepción,
+1306. El Divisadero,
+1307. El Rosario,
+1308. Gualococti,
+1309. Guatajiagua,
+1310. Joateca,
+1311. Jocoaitique,
+1312. Jocoro,
+1313. Lolotiquillo,
+1314. Meanguera,
+1315. Oscicala,
+1316. Perquín,
+1317. San Carlos,
+1318. San Fernando,
+1319. San Francisco Gotera,
+1320. San Isidro,
+1321. San Simón,
+1322. Sensembra,
+1323. Sociedad,
+1324. Torola,
+1325. Yamabal,
+1326. Yoloaiquín,
+1401. Anamorós,
+1402. Bolívar,
+1403. Concepción de Oriente,
+1404. Conchagua,
+1405. El Carmen,
+1406. El Sauce,
+1407. Intipucá,
+1408. La Unión,
+1409. Lislique,
+1410. Meanguera del Golfo,
+1411. Nueva Esparta,
+1412. Pasaquina,
+1413. Polorós,
+1414. San Alejo,
+1415. San José,
+1416. Santa Rosa de Lima,
+1417. Yayantique,
+1418. Yucuaiquín",0,1," 101"," 614.0"," 1418",710.1706133333333,386.57996300760664,262,"▅▃▃▇▅▂▃▅","F4.0","6"
+"autorrepresentado","Municipio autorrepresentado","numeric",NA,0,1,"0.0e+00","1.0e+00","     1",0.6614044444444445,0.4732362905493399,NA,"▅▁▁▁▇","F1.0","6"
+"znorte","Zona norte","numeric",NA,0,1,"0.0e+00","0.0e+00","     1",0.2765155555555555,0.44727872706248983,NA,"▇▁▁▁▃","F1.0","6"
+"r004","Código de departamento","haven_labelled","1. Ahuachapán,
+2. Santa Ana,
+3. Sonsonate,
+4. Chalatenango,
+5. La Libertad,
+6. San Salvador,
+7. Cuscatlán,
+8. La Paz,
+9. Cabañas,
+10. San Vicente,
+11. Usulután,
+12. San Miguel,
+13. Morazán,
+14. La Unión",0,1,"   1","   6.0","   14",7.0096355555555565,3.852714185403401,14,"▅▅▃▇▅▂▃▅","F2.0","6"
+"r005","Código de municipio","numeric",NA,0,1,"1.0e+00","8.0e+00","    33",9.207057777777779,6.137791235787207,NA,"▇▆▃▁▁","F2.0","6"
+"r006","Código de cantón","numeric",NA,0,1,"0.0e+00","2.0e+00","    41",4.34816,5.990133393073153,NA,"▇▁▁▁▁","F8.2","6"
+"r015","Mes de levantamiento","haven_labelled","1. Enero,
+2. Febrero,
+3. Marzo,
+4. Abril,
+5. Mayo,
+6. Junio,
+7. Julio,
+8. Agosto,
+9. Septiembre,
+10. Octubre,
+11. Noviembre,
+12. Diciembre",0,1,"   1","   6.0","   12",6.3824177777777775,3.4268963731074975,12,"▇▅▇▃▅▇▂▇","F2.0","6"
+"r017","Resultado final de la entrevista","haven_labelled","1. Completa,
+2. Ausente temporal,
+3. Rehúso,
+4. Otros tipo A,
+5. Desocupada,
+6. Vacante usada temporalmente para negocio o almacenaje,
+7. Otros tipo C,
+8. Sin acceso a la información,
+9. Por casos de covid 19",0,1,"   1","   1.0","    1",1,0,9,"▁▁▁▇▁▁▁▁","F1.0","6"
+"r017otr",NA,"numeric",NA,56250,0,"     NA","     NA","    NA",NA,NA,NA," ","F2.0","6"
+"r018","Número de orden del principal informante","numeric",NA,0,1,"1.0e+00","1.0e+00","     9",1.5708977777777777,0.8307688523461811,NA,"▇▁▁▁▁","F2.0","6"
+"r019","Entrevista con boleta anexa","haven_labelled","1. Con boleta anexa,
+2. Sin boleta anexa",0,1,"   1","   1.0","    1",1,0,2,"▁▁▁▇▁▁▁▁","F12.0","6"
+"r020","Confiabilidad de la información","haven_labelled","1. Información confiable,
+2. Informacion poco confiable,
+3. Información no confiable",0,1,"   1","   1.0","    3",1.0422577777777777,0.24260116762744588,3,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r021a","Número de miembros del hogar","numeric",NA,0,1,"1.0e+00","4.0e+00","    15",3.9554844444444446,1.7229612836017654,NA,"▆▇▁▁▁","F2.0","6"
+"r021b","Personas de 4 años y más del hogar","numeric",NA,0,1,"1.0e+00","4.0e+00","    13",3.71712,1.6188524556928083,NA,"▇▆▂▁▁","F2.0","6"
+"r022","Personas de 5 años y más del hogar","numeric",NA,0,1,"1.0e+00","3.0e+00","    13",3.64896,1.5979816030380527,NA,"▇▆▂▁▁","F2.0","6"
+"r024","Personas que se enfermaron del hogar","numeric",NA,0,1,"0.0e+00","0.0e+00","    11",0.7420622222222222,1.1642217138551976,NA,"▇▁▁▁▁","F2.0","6"
+"r033","Personas de 4 años y más del hogar","numeric",NA,0,1,"1.0e+00","4.0e+00","    13",3.71712,1.6188524556928083,NA,"▇▆▂▁▁","F2.0","6"
+"r034","Personas de 5 años y más del hogar","numeric",NA,0,1,"1.0e+00","3.0e+00","    13",3.64896,1.5979816030380527,NA,"▇▆▂▁▁","F2.0","6"
+"r036","Personas que se enfermaron del hogar","numeric",NA,0,1,"0.0e+00","0.0e+00","    11",0.7420622222222222,1.1642217138551976,NA,"▇▁▁▁▁","F2.0","6"
+"r039","Hogar con sección de pobreza multidimensional","haven_labelled","1. Hogar con sección de pobreza multidimensional,
+8. Sin sección de pobreza multidimensional por ser una zona de riesgo,
+9. Sin sección de pobreza multidimensional por rechazo del informante",0,1,"   1","   1.0","    1",1,0,3,"▁▁▁▇▁▁▁▁","F8.2","10"
+"li",NA,"numeric",NA,0,1,"4.4e+01","6.8e+01","    68",57.02645866666667,11.560603910507007,NA,"▇▁▁▁▇","F8.2",NA
+"smin",NA,"numeric",NA,0,1,"3.6e+02","3.6e+02","   363",363.05,0,NA,"▁▁▇▁▁","F8.2",NA
+"actpr","Estado ocupacional","haven_labelled","10. Ocupado,
+21. Desocupado abierto,
+22. Desocupado oculto,
+23. Desocupado oculto,
+24. Desocupado oculto,
+25. Desocupado oculto,
+30. Inactivo",3817,0.9321422222222222,"  10","  21.0","   30",19.936814601491427,9.877057101953298,7,"▇▁▁▁▁▁▁▇","F2.0","6"
+"actpr2012","Estado ocupacional agregado","haven_labelled","10. Ocupado,
+20. Desocupado,
+30. Inactivo",3817,0.9321422222222222,"  10","  20.0","   30",19.864398375069136,9.862241425181661,3,"▇▁▁▁▁▁▁▇","F2.0","6"
+"actse","Estado ocupacional","haven_labelled","1. Ocupado pleno,
+2. Subempleo visible,
+3. Subempleo invisible,
+4. Cesante,
+5. Aspirante",40075,0.28755555555555556,"   1","   1.0","    5",1.9998145285935085,1.1317063262296034,5,"▇▂▁▅▁▁▁▁","F1.0","10"
+"aproba1","Número de grados aprobados","numeric",NA,2955,0.9474666666666667,"0.0e+00","6.0e+00","    25",6.7393001219626605,5.0304320930429824,NA,"▇▆▅▁▁","F2.0","6"
+"ciuo414","Grupo ocupacional (CIUO 08)","haven_labelled","1. Fuerzas Armadas,
+2. Poder Ejecutivo, Legislativo, Directores de Administración Pública,
+3. Profesionales, científicos e intelectuales,
+4. Técnicos y profesionales de nivel medio,
+5. Empleados de Oficina,
+6. Trabajadores de los servicios y Vendedores de comercios y mercados,
+7. Agricultores y trabajadores calificados agropecuarios y pesqueros,
+8. Oficiales, Operarios y artesanos de artes mecánicas y otros,
+9. Operadores de instalaciones, máquinas y montadores,
+10. Trabajadores no calificados",30391,0.45971555555555554,"   1","   7.0","   10",7.151011253335396,2.2031318549835808,10,"▁▁▂▁▇▂▃▇","F2.0","6"
+"ciiu416","Rama de actividad económica (CIIU Rev. 4)","haven_labelled","1. Agricultura, ganadería, caza y silvicultura,
+2. Pesca,
+3. Explotación de minas y canteras,
+4. Industrias manufactureras,
+5. Suministro de electricidad, gas y agua,
+6. Construcción,
+7. Comercio, hoteles y restaurantes,
+8. Transporte, almacenamiento y comunicaciones,
+9. Intermediación financiera, inmobiliarias,
+10. Administración publica y defensa,
+11. Enseñanza,
+12. Servicios comunales sociales y de salud,
+13. Hogares con servicios domésticos,
+14. Actividades de organizaciones y órganos extraterritoriales",30391,0.45971555555555554,"   1","   7.0","   14",6.533044587957771,3.444736874638391,14,"▃▃▁▇▂▁▂▁","F2.0","6"
+"ciiu438","Rama de actividad económica (CIIU Rev. 4)","haven_labelled","1. Agricultura, ganadería, caza y silvicultura,
+2. Pesca,
+3. Explotación de minas y canteras,
+4. Industrias manufactureras,
+5. Suministro de electricidad, gas y agua,
+6. Construcción,
+7. Comercio, hoteles y restaurantes,
+8. Transporte, almacenamiento y comunicaciones,
+9. Intermediación financiera, inmobiliarias,
+10. Administración publica y defensa,
+11. Enseñanza,
+12. Servicios comunales sociales y de salud,
+13. Hogares con servicios domésticos,
+14. Actividades de organizaciones y órganos extraterritoriales",53131,0.05544888888888888,"   1","   6.0","   13",5.40686117345303,3.7817585350398892,14,"▇▃▁▇▁▁▁▂","F2.0","6"
+"ciuo436","Grupo ocupacional (CIUO 08)","haven_labelled","1. Fuerzas Armadas,
+2. Poder Ejecutivo, Legislativo, Directores de Administración Pública,
+3. Profesionales, científicos e intelectuales,
+4. Técnicos y profesionales de nivel medio,
+5. Empleados de Oficina,
+6. Trabajadores de los servicios y Vendedores de comercios y mercados,
+7. Agricultores y trabajadores calificados agropecuarios y pesqueros,
+8. Oficiales, Operarios y artesanos de artes mecánicas y otros,
+9. Operadores de instalaciones, máquinas y montadores,
+10. Trabajadores no calificados",53131,0.05544888888888888,"   1","   7.0","   10",7.4854119910227634,2.036949120828496,10,"▁▁▁▁▆▅▃▇","F2.0","6"
+"d411b","Número de días trabajados la semana anterior","numeric",NA,30391,0.45971555555555554,"0.0e+00","6.0e+00","     7",5.396457712981941,1.5868825192441904,NA,"▁▁▁▃▇","F1.0","6"
+"d412b","Número de días habituales trabajados en la semana","numeric",NA,30391,0.45971555555555554,"0.0e+00","0.0e+00","     7",1.4705518388182064,2.412922557280306,NA,"▇▁▁▁▂","F1.0","6"
+"gmed","Gasto del hogar en educación","numeric",NA,0,1,"0.0e+00","2.0e+01","  1145",48.91882328888889,83.5898727501513,NA,"▇▁▁▁▁","F8.2","7"
+"gmvi","Gasto del hogar en vivienda","numeric",NA,0,1,"0.0e+00","6.9e+01","  2514",96.9292304,103.34275211814749,NA,"▇▁▁▁▁","F8.2","7"
+"gmem","Gasto del hogar en empleo","numeric",NA,0,1,"0.0e+00","1.7e+01","  2492",78.86256195555556,156.45085402241082,NA,"▇▁▁▁▁","F8.2","7"
+"h411a","Horas trabajadas la semana anterior","numeric",NA,30391,0.45971555555555554,"0.0e+00","4.4e+01","    72",41.37924900421517,16.352375185927876,NA,"▂▂▆▇▃","F2.0","6"
+"h412a","Horas habituales trabajadas en la semana","numeric",NA,30391,0.45971555555555554,"0.0e+00","0.0e+00","    72",8.171584361344213,14.004763783212738,NA,"▇▁▁▁▁","F2.0","6"
+"imeds","Ingreso por empleo dependiente","numeric",NA,0,1,"0.0e+00","0.0e+00","  2500",113.36494844444444,229.66222207424727,NA,"▇▁▁▁▁","F8.2","7"
+"imei","Ingreso por empleo independiente","numeric",NA,0,1,"0.0e+00","0.0e+00"," 13550",44.627288533333335,253.289223113106,NA,"▇▁▁▁▁","F8.2","7"
+"imes","Ingreso por empleo secundario","numeric",NA,0,1,"0.0e+00","0.0e+00","  1150",3.453287288888889,33.70815041914994,NA,"▇▁▁▁▁","F8.2","7"
+"imnl","Ingreso por actividades no laborales","numeric",NA,0,1,"0.0e+00","0.0e+00","  2500",17.54559377777778,87.91668029562153,NA,"▇▁▁▁▁","F8.2","7"
+"ingfa","Ingreso mensual familiar","numeric",NA,0,1,"0.0e+00","5.8e+02"," 13562",767.2655843555556,711.3893732621129,NA,"▇▁▁▁▁","F9.2","10"
+"ingneto","Ingreso neto por actividades agropecuarias","numeric",NA,0,1,"0.0e+00","0.0e+00","  1000",4.355491911111111,29.434439909282858,NA,"▇▁▁▁▁","F8.2","7"
+"ingpe","Ingreso mensual percápita","numeric",NA,0,1,"0.0e+00","1.6e+02","  9300",212.2455511111111,210.78294565673193,NA,"▇▁▁▁▁","F9.2","10"
+"ingre","Ingreso total (persona)","numeric",NA,0,1,"0.0e+00","0.0e+00"," 13550",188.65220995555555,351.23282154577527,NA,"▇▁▁▁▁","F8.2","7"
+"irefa","Ingreso por remesas","numeric",NA,0,1,"0.0e+00","0.0e+00","  2400",55.593411555555555,131.18028664488182,NA,"▇▁▁▁▁","F9.2","10"
+"irefb","Ingreso por remesas eventuales","numeric",NA,0,1,"0.0e+00","0.0e+00","   792",1.1990079999999999,11.76933726501657,NA,"▇▁▁▁▁","F9.2","10"
+"ires","Ingreso por remesas en especie","numeric",NA,0,1,"0.0e+00","0.0e+00","   250",0.9908335999999999,8.271058904587893,NA,"▇▁▁▁▁","F9.2","10"
+"miemh","Número de miembros del hogar","numeric",NA,0,1,"1.0e+00","4.0e+00","    15",3.9554844444444446,1.7229612836017654,NA,"▆▇▁▁▁","F2.0","6"
+"miemh_exdomestico","Número de miembros del hogar excluyendo servicio doméstico","numeric",NA,0,1,"1.0e+00","4.0e+00","    15",3.9526044444444444,1.7238025921743316,NA,"▆▇▁▁▁","F2.0","6"
+"money","Ingreso por trabajo dependiente o empleo independiente","numeric",NA,0,1,"0.0e+00","0.0e+00"," 13550",157.99223697777776,326.77461097967955,NA,"▇▁▁▁▁","F8.2","7"
+"oia","Otros ingresos","numeric",NA,0,1,"0.0e+00","0.0e+00","  2954",0.8601264000000001,24.271364356698765,NA,"▇▁▁▁▁","F8.2","7"
+"oimed","Otros ingresos por trabajo dependiente","numeric",NA,0,1,"0.0e+00","0.0e+00","  1508",8.80096551111111,39.171966494879335,NA,"▇▁▁▁▁","F8.2","7"
+"pobreza","Condición de pobreza del hogar","haven_labelled","1. Pobreza extrema,
+2. Pobreza relativa,
+3. No pobres",0,1,"   1","   3.0","    3",2.59184,0.6631707587100721,3,"▁▁▁▂▁▁▁▇","F1.0","10"
+"segm","Segmentación del mercado laboral","haven_labelled","1. Formal,
+2. Informal,
+3. Servicio doméstico,
+4. Nunca ha trabajado,
+5. Inactivo",28138,0.49976888888888893,"   1","   2.0","    5",3.174516220830962,1.774124020669715,5,"▅▅▁▁▁▁▁▇","F1.0","10"
+"totayuda","Total de remesas","numeric",NA,0,1,"0.0e+00","0.0e+00","  2400",57.78325315555556,133.75732740151898,NA,"▇▁▁▁▁","F9.2","10"
+"r01a","Tiene el hogar algún miembro en el extranjero","haven_labelled","1. Sí,
+2. No",0,1,"   1","   2.0","    2",1.8327644444444444,0.37318936269678465,2,"▂▁▁▁▁▁▁▇","F1.0","6"
+"r01b","Total de miembros en el extranjero","numeric",NA,46843,0.16723555555555558,"1.0e+00","1.0e+00","    17",1.8916764111831614,1.418215474888206,NA,"▇▁▁▁▁","F2.0","6"
+"r01c","Hombres en el extranjero","numeric",NA,46843,0.16723555555555558,"0.0e+00","1.0e+00","     8",1.1311789093228446,1.0011754321806368,NA,"▇▂▁▁▁","F2.0","6"
+"r01d","Mujeres en el extranjero","numeric",NA,46843,0.16723555555555558,"0.0e+00","1.0e+00","    17",0.7604975018603168,0.97934227841312,NA,"▇▁▁▁▁","F2.0","6"
+"r01e","Tiempo en el extranjero del más reciente","numeric",NA,46924,0.16579555555555558,"0.0e+00","6.0e+00","    50",8.60068625348488,8.243342951391767,NA,"▇▂▁▁▁","F2.0","6"
+"r01f_a","País de residencia de los miembros en el extranjero","haven_labelled","36. Australia,
+124. Canadá,
+484. México,
+724. España,
+840. Estados Unidos,
+999. Otros",46843,0.16723555555555558,"  36"," 840.0","  999",835.1940044647603,72.3209844132634,6,"▁▁▁▁▁▁▇▁","F3.0","6"
+"r01f_b","País de residencia de los miembros en el extranjero","haven_labelled","36. Australia,
+124. Canadá,
+484. México,
+724. España,
+840. Estados Unidos,
+999. Otros",56181,0.0012266666666667092," 124"," 724.0","  999",665.927536231884,338.29691617765474,6,"▆▁▁▁▁▇▁▇","F3.0","6"
+"r01f_c","País de residencia de los miembros en el extranjero","haven_labelled","36. Australia,
+124. Canadá,
+484. México,
+724. España,
+840. Estados Unidos,
+999. Otros",56250,0," Inf","    NA"," -Inf",NA,NA,6," ","F3.0","6"
+"r01f_d","País de residencia de los miembros en el extranjero","haven_labelled","36. Australia,
+124. Canadá,
+484. México,
+724. España,
+840. Estados Unidos,
+999. Otros",56250,0," Inf","    NA"," -Inf",NA,NA,6," ","F3.0","6"
+"r01otr","Otro país de residencia","numeric",NA,56017,0.004142222222222269,"3.2e+01","3.4e+02","   826",341.44635193133047,188.4223243806219,NA,"▆▇▇▂▂","F2.0","6"
+"r02a","Tiene el hogar pupilos","haven_labelled","1. Sí,
+2. No",0,1,"   1","   2.0","    2",1.9989333333333332,0.03264273015483627,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r02b","Total de pupilos","numeric",NA,56190,0.0010666666666666602,"1.0e+00","1.0e+00","    11",1.7,1.9071675688290268,NA,"▇▁▁▁▁","F2.0","6"
+"r02c","Hombres pupilos","numeric",NA,56190,0.0010666666666666602,"0.0e+00","0.0e+00","     6",0.6333333333333333,1.2068542476791648,NA,"▇▁▁▁▁","F2.0","6"
+"r02d","Mujeres pupilas","numeric",NA,56190,0.0010666666666666602,"0.0e+00","1.0e+00","     5",1.0666666666666667,0.9181164703387825,NA,"▇▁▁▁▁","F2.0","6"
+"r03","Realizó el hogar viajes turísticos o de negocios","haven_labelled","1. Sí,
+2. No",0,1,"   1","   2.0","    2",1.9535288888888889,0.2105049517661029,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r0401","Viajes con pernoctación","numeric",NA,53636,0.04647111111111113,"0.0e+00","0.0e+00","    10",0.41009946442234124,0.8033543755009547,NA,"▇▁▁▁▁","F2.0","6"
+"r0402","Viajes de un día","numeric",NA,53636,0.04647111111111113,"0.0e+00","1.0e+00","    10",1.0581484315225709,1.0118247373169549,NA,"▇▁▁▁▁","F2.0","6"
+"r0501","Gasto en viajes con pernoctación","numeric",NA,55538,0.012657777777777768,"0.0e+00","1.8e+02","  2500",339.5126404494382,434.148308424421,NA,"▇▂▁▁▁","F8.2","7"
+"r0502","Gasto en viajes de un día","numeric",NA,54284,0.034951111111111155,"0.0e+00","5.0e+01","  1000",78.38860630722279,86.06113900128864,NA,"▇▁▁▁▁","F8.2","7"
+"r06","Hay menores de edad cuyos padres no viven en el hogar","haven_labelled","1. Sí,
+2. No",0,1,"   1","   2.0","    2",1.891448888888889,0.31107794478892725,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r06a","Ausencia por muerte","haven_labelled","1. No,
+2. Padre,
+3. Madre,
+4. Ambos",50144,0.10855111111111115,"   1","   1.0","    4",1.1429741238126434,0.42605240704421266,4,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r06b","Ausencia por migración","haven_labelled","1. No,
+2. Padre,
+3. Madre,
+4. Ambos",50144,0.10855111111111115,"   1","   1.0","    4",1.2237143792990501,0.5658021286566381,4,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r06c","Ausencia por abandono","haven_labelled","1. No,
+2. Padre,
+3. Madre,
+4. Ambos",50144,0.10855111111111115,"   1","   2.0","    4",1.9939403865050769,0.8348251146434352,4,"▃▁▇▁▁▁▁▁","F1.0","6"
+"r06otr","Ausencia por otra razón","numeric",NA,56086,0.00291555555555556,"1.0e+00","1.0e+00","    14",1.8658536585365855,2.2223747599234507,NA,"▇▁▁▁▁","F2.0","6"
+"r103","Relación de parentesco","haven_labelled","1. Jefe(a),
+2. Esposa(o), compañera(o),
+3. Hijo(a),
+4. Padre/Madre,
+5. Hermano(a),
+6. Yerno/Nuera,
+7. Nieto(a),
+8. Suegro(a),
+9. Otros familiares,
+10. Empleada(o) doméstica(o),
+11. Otros",0,1,"   1","   3.0","   11",2.7532266666666665,1.9857692945990209,11,"▇▆▁▁▁▁▁▁","F2.0","6"
+"r103otr","Otra relación de parentesco","numeric",NA,55931,0.005671111111111071,"1.0e+00","1.0e+00","     3",1.3636363636363635,0.5489217040381021,NA,"▇▁▃▁▁","F2.0","6"
+"r104","Sexo","haven_labelled","1. Hombre,
+2. Mujer",0,1,"   1","   2.0","    2",1.5366222222222221,0.4986614417811079,2,"▇▁▁▁▁▁▁▇","F1.0","6"
+"r105m","Mes de nacimiento","haven_labelled","1. Enero,
+2. Febrero,
+3. Marzo,
+4. Abril,
+5. Mayo,
+6. Junio,
+7. Julio,
+8. Agosto,
+9. Septiembre,
+10. Octubre,
+11. Noviembre,
+12. Diciembre",1680,0.9701333333333333,"   1","   7.0","   12",6.524555616639179,3.4330140022191444,12,"▇▃▇▃▃▇▃▇","F2.0","6"
+"r105a","Año de nacimiento","numeric",NA,0,1,"1.9e+03","2.0e+03","  2023",1988.7758044444445,21.983349229205157,NA,"▁▃▆▇▇","F4.0","6"
+"r106","Edad en años cumplidos","numeric",NA,0,1,"0.0e+00","3.0e+01","    98",33.78305777777778,21.988095013391845,NA,"▇▇▆▃▁","F2.0","6"
+"r107","Estado familiar","haven_labelled","1. Acompañado(a),
+2. Casado(a),
+3. Viudo(a),
+4. Divorciado(a),
+5. Separado(a),
+6. Soltero(a)",10220,0.8183111111111111,"   1","   3.0","    6",3.729459048446665,2.128300982122991,6,"▃▅▁▁▁▁▂▇","F1.0","6"
+"r108a","Número de orden del padre (menores de edad)","numeric",NA,40573,0.2787022222222222,"1.0e+00","2.0e+00","    99",41.42374178733176,48.06148519319742,NA,"▇▁▁▁▆","F2.0","6"
+"r108b","Numero de orden de la madre (menores de edad)","numeric",NA,40573,0.2787022222222222,"1.0e+00","2.0e+00","    99",11.560949161191555,29.110028985118646,NA,"▇▁▁▁▁","F2.0","6"
+"r201a","Asiste a un centro de educación inicial (menores de 4 años)","haven_labelled","1. Sí,
+2. No",53295,0.05253333333333332,"   1","   2.0","    2",1.9560067681895092,0.20511476044105373,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r202a","Sabe leer y escribir","haven_labelled","1. Sí,
+2. No,
+3. Sí, sólo leer",2955,0.9474666666666667,"   1","   1.0","    3",1.1618725959283236,0.39054107482321637,3,"▇▁▁▂▁▁▁▁","F1.0","6"
+"r202b","Donde aprendió a leer y escribir","haven_labelled","1. Centro educativo o escuela,
+2. Familiares, amigo(a) o vecino(a),
+3. Círculos de alfabetización,
+4. Escuela nocturna,
+5. Otros,
+6. A distancia semi presencial,
+7. A distancia",10684,0.8100622222222222,"   1","   1.0","    7",1.0229557125927227,0.22593737459200744,7,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r202botr","Otro lugar donde aprendió a leer y escribir","numeric",NA,56221,5.155555555556024e-4,"1.0e+00","1.0e+00","     9",1.7241379310344827,1.9620789215985377,NA,"▇▁▁▁▁","F2.0","6"
+"r203","Estudia actualmente","haven_labelled","1. Sí,
+2. No",2955,0.9474666666666667,"   1","   2.0","    2",1.7460174500422179,0.4352918211507838,2,"▃▁▁▁▁▁▁▇","F1.0","6"
+"r204","Nivel que cursa actualmente","haven_labelled","0. Educación inicial,
+1. Parvularia (1° a 3°),
+2. Básica (1° a 9°),
+3. Media (10° a 13°),
+4. Superior universitario (1° a 15°),
+4.1. Curso de nivelación (1°),
+5. Superior no universitario (1° a 3°),
+6. Educación especial (ciclos I, II, III, IV),
+7. Otros",42714,0.24063999999999997,"   0","   2.0","    6",2.250886524822695,0.8780872755694421,9,"▁▂▇▂▁▂▁▁","F12.1","6"
+"r204otr","Otro nivel que cursa actualmente","numeric",NA,56250,0,"     NA","     NA","    NA",NA,NA,NA," ","F2.0","6"
+"r204g","Grado que cursa actualmente","numeric",NA,42731,0.24033777777777776,"1.0e+00","4.0e+00","    15",4.884310969746283,3.1733123709790205,NA,"▇▅▃▂▁","F2.0","6"
+"r205","Está repitiendo el grado que cursa","haven_labelled","1. Sí,
+2. No",46283,0.17719111111111108,"   1","   2.0","    2",1.9522423999197351,0.21326362772605265,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r206a","Numero de veces que esta repitiendo el grado que cursa","numeric",NA,55774,0.00846222222222226,"1.0e+00","1.0e+00","     3",1.3529411764705883,0.5924185617635401,NA,"▇▁▂▁▁","F1.0","6"
+"r207","Razón por la que está repitiendo el grado","haven_labelled","1. Abandonó los estudios antes de finalizar el año escolar,
+2. Reprobó o aplazó el año escolar,
+3. Padre/Madre le matricularon en el mismo grado,
+4. Otros",55774,0.00846222222222226,"   1","   2.0","    4",1.6869747899159664,0.6994121497032971,4,"▆▁▇▁▁▁▁▁","F1.0","6"
+"r207otr","Otra razón por la que está repitiendo el grado","numeric",NA,56234,2.844444444444205e-4,"1.0e+00","2.0e+00","     2",1.75,0.44721359549995793,NA,"▂▁▁▁▇","F2.0","6"
+"r208","Razón por la que abandonó o reprobó el grado","haven_labelled","1. Necesita trabajar,
+2. Problemas en el hogar,
+3. Muy caro,
+4. Por enfermedad,
+5. Discapacidad,
+6. Padre y/o madre no quieren que estudie,
+7. Dificultades económicas,
+8. La escuela está muy lejos,
+9. No le interesa estudiar,
+10. Trabajo doméstico y cuidado,
+11. Repite mucho,
+12. Cambio de domicilio,
+13. La escuela está inhabilitada,
+14. Por las maras,
+15. Otros",55807,0.007875555555555525,"   1","   8.0","   15",6.72686230248307,4.106597257774078,15,"▇▅▁▁▇▂▁▂","F2.0","6"
+"r208otr","Otra razón por la que abandonó o reprobó el grado","numeric",NA,56224,4.6222222222225273e-4,"2.0e+00","3.0e+00","    12",5.5,3.3852621759621515,NA,"▇▁▁▅▁","F2.0","6"
+"r209","Estudió la parvularia","haven_labelled","1. Sí,
+2. No",46283,0.17719111111111108,"   1","   1.0","    2",1.0838767934182802,0.27721685970928217,2,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r210a","Tipo de centro de enseñanza al que asiste","haven_labelled","1. Público,
+2. Laico,
+3. Religioso",42584,0.24295111111111112,"   1","   1.0","    3",1.2527440362944533,0.5567023087488808,3,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r210b","Tiene el centro de enseñanza centro de cómputo o aula informática","haven_labelled","1. Sí,
+2. No",42731,0.24033777777777776,"   1","   1.0","    2",1.3347880760411273,0.4719337823081752,2,"▇▁▁▁▁▁▁▅","F1.0","6"
+"r210c","Tiene el centro de enseñanza biblioteca","haven_labelled","1. Sí,
+2. No",42731,0.24033777777777776,"   1","   1.0","    2",1.4856868111546713,0.4998135765762693,2,"▇▁▁▁▁▁▁▇","F1.0","6"
+"r211a","Recibe gratis del centro de enseñanza asistencia médica","haven_labelled","1. Sí,
+2. No",44458,0.20963555555555557,"   1","   2.0","    2",1.5596166892808685,0.4964541786935876,2,"▆▁▁▁▁▁▁▇","F1.0","6"
+"r211b","Recibe gratis del centro de enseñanza alimentos","haven_labelled","1. Sí,
+2. No",44458,0.20963555555555557,"   1","   1.0","    2",1.1524762550881953,0.35949715790705067,2,"▇▁▁▁▁▁▁▂","F1.0","6"
+"r211c","Recibe gratis del centro de enseñanza textos","haven_labelled","1. Sí,
+2. No",44458,0.20963555555555557,"   1","   1.0","    2",1.3015603799185889,0.458954878070028,2,"▇▁▁▁▁▁▁▃","F1.0","6"
+"r211d","Recibe gratis del centro de enseñanza beca para matrícula","haven_labelled","1. Sí,
+2. No",44458,0.20963555555555557,"   1","   2.0","    2",1.9783751696065128,0.14546130569783336,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r211e","Recibe gratis del centro de enseñanza beca de cuota escolar","haven_labelled","1. Sí,
+2. No",44458,0.20963555555555557,"   1","   2.0","    2",1.977103120759837,0.14958111375604552,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r211f","Recibe gratis del centro de enseñanza zapatos","haven_labelled","1. Sí,
+2. No",44458,0.20963555555555557,"   1","   1.0","    2",1.0881105834464044,0.2834676750627143,2,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r211g","Recibe gratis del centro de enseñanza útiles escolares","haven_labelled","1. Sí,
+2. No",44458,0.20963555555555557,"   1","   1.0","    2",1.087347354138399,0.28235536964131347,2,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r211h","Recibe gratis del centro de enseñanza uniformes","haven_labelled","1. Sí,
+2. No",44458,0.20963555555555557,"   1","   1.0","    2",1.0920963364993215,0.28917415633935073,2,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r212","Ha asistido alguna vez a algún centro de enseñanza","haven_labelled","1. Sí,
+2. No",16491,0.7068266666666667,"   1","   1.0","    2",1.134837395306723,0.3415541044872445,2,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r213","Tipo de centro de enseñanza al que asistió","haven_labelled","1. Público,
+2. Laico,
+3. Religioso",21852,0.6115200000000001,"   1","   1.0","    3",1.0907901622187337,0.31242464909581774,3,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r214","Último nivel cursado y aprobado","haven_labelled","0. Educación inicial,
+1. Parvularia (1° a 3°),
+2. Básica (1° a 9°),
+3. Media (10° a 13°),
+4. Superior universitario (1° a 15°),
+5. Superior no universitario (1° a 3°),
+6. Educación especial (ciclos I, II, III, IV),
+7. Otros,
+8. Ninguno",21852,0.6115200000000001,"   0","   2.0","    8",2.6230594802023375,1.005271294683032,9,"▁▇▃▁▁▁▁▁","F1.0","6"
+"r214otr","Otro último nivel cursado y aprobado","numeric",NA,56250,0,"     NA","     NA","    NA",NA,NA,NA," ","F2.0","6"
+"r215","Último grado que aprobó","numeric",NA,22389,0.6019733333333334,"1.0e+00","7.0e+00","    15",7.156847110244825,3.546692947282066,NA,"▆▇▆▇▁","F1.0","6"
+"r216a","Repitió el último grado que aprobó","haven_labelled","1. Sí,
+2. No",26331,0.5318933333333333,"   1","   2.0","    2",1.9863631805875865,0.1159797661641624,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r216b","Número de veces que repitió el último grado que aprobó","numeric",NA,55842,0.007253333333333334,"1.0e+00","2.0e+00","     3",1.7254901960784315,0.7602774967993721,NA,"▇▁▆▁▃","F1.0","6"
+"r217","Título o diploma que obtuvo en el nivel más alto que aprobó","haven_labelled","1. No obtuvo,
+2. Bachillerato general,
+3. Bachillerato técnico,
+4. Profesorado,
+5. Técnico superior no universitario,
+6. Título universitario de 3 años,
+7. Título universitario de 5 años,
+8. Título universitario de más de 5 años (medicina),
+9. Post-grado,
+10. Otros",22378,0.6021688888888889,"   1","   1.0","    9",1.959081247047709,1.6533202240435223,10,"▇▂▁▁▁▁▁▁","F2.0","6"
+"r217otro","Otro título o diploma que obtuvo en el nivel más alto que aprobó","numeric",NA,56250,0,"     NA","     NA","    NA",NA,NA,NA," ","F2.0","6"
+"r218","Carrera en la cual se graduó de pregrado o postgrado","haven_labelled","1. Administración de empresas/Mercadeo,
+2. Contabilidad,
+3. Derecho,
+4. Comunicaciones,
+5. Medicina,
+6. Ingeniería,
+7. Psicología,
+8. Otros",54061,0.03891555555555559,"   1","   6.0","    8",5.23435358611238,2.7574708733094657,8,"▃▁▂▁▁▃▁▇","F1.0","6"
+"r218otr","Otra carrera en la cual se graduó de pregrado o postgrado","numeric",NA,56250,0,"     NA","     NA","    NA",NA,NA,NA," ","F2.0","6"
+"r219","Razón por la que no estudia actualmente","haven_labelled","1. Necesita trabajar,
+2. Causas del hogar,
+3. Muy caro,
+4. Enfermedad,
+5. Discapacidad,
+6. Padre y/o madre no quieren,
+7. Por la edad,
+8. Finalizó sus estudios,
+9. No hay escuela cercana,
+10. No le interesa,
+11. Repite mucho,
+12. Trabajo doméstico y cuidado,
+13. Centro de enseñanza inhabilitado,
+14. No hay escuela para adultos,
+15. Por embarazo,
+16. Por maternidad,
+17. Otros,
+18. Violencia o inseguridad",16491,0.7068266666666667,"   1","   3.0","   18",4.713121557383234,4.099711305747049,18,"▇▁▃▁▂▂▁▁","F2.0","6"
+"r219otr","Otra razón por la que no estudia actualmente","numeric",NA,56147,0.0018311111111111167,"1.0e+00","1.5e+01","    66",21.223300970873787,22.363280494752104,NA,"▇▃▁▂▂","F2.0","6"
+"r220a1","Gastó anualmente en matrícula","haven_labelled","1. Sí,
+2. No",42584,0.24295111111111112,"   0","   1.0","    1",0.8131128347724279,0.38983518710747367,2,"▂▁▁▁▁▁▁▇","F1.0","6"
+"r220a2","Monto anual gastado en matrícula","numeric",NA,53944,0.04099555555555556,"5.0e+00","9.0e+01","  1000",131.72217259323503,133.1829410252559,NA,"▇▂▁▁▁","F8.2","7"
+"r220b1","Gastó anualmente en útiles","haven_labelled","1. Sí,
+2. No",42584,0.24295111111111112,"   0","   0.0","    1",0.3679935606614957,0.4822772228505605,2,"▇▁▁▁▁▁▁▅","F1.0","6"
+"r220b2","Monto anual gastado en útiles","numeric",NA,47834,0.14961777777777774,"1.0e+00","2.5e+01","   500",34.742841017110266,36.22826365537297,NA,"▇▁▁▁▁","F8.2","7"
+"r220c1","Gastó anualmente en uniformes","haven_labelled","1. Sí,
+2. No",42584,0.24295111111111112,"   0","   1.0","    1",0.5700278062344505,0.4950899336512043,2,"▆▁▁▁▁▁▁▇","F1.0","6"
+"r220c2","Monto anual gastado en uniformes","numeric",NA,50473,0.10270222222222225,"5.0e+00","1.6e+01","   300",25.008869655530553,24.283686557976765,NA,"▇▁▁▁▁","F8.2","7"
+"r220d1","Gastó anualmente en textos","haven_labelled","1. Sí,
+2. No",42584,0.24295111111111112,"   0","   1.0","    1",0.7179862432313772,0.4499964614581147,2,"▃▁▁▁▁▁▁▇","F1.0","6"
+"r220d2","Monto anual gastado en textos","numeric",NA,52690,0.06328888888888884,"5.0e+00","2.2e+01","   350",40.928772471910115,49.41084564108412,NA,"▇▁▁▁▁","F8.2","7"
+"r220e1","Gastó anualmente en calzado escolar","haven_labelled","1. Sí,
+2. No",42584,0.24295111111111112,"   0","   1.0","    1",0.5999560954192887,0.48992483377394414,2,"▆▁▁▁▁▁▁▇","F1.0","6"
+"r220e2","Monto anual gastado en calzado escolar","numeric",NA,50876,0.09553777777777783,"5.0e+00","2.5e+01","   250",29.465909936732416,21.61749604487999,NA,"▇▁▁▁▁","F8.2","7"
+"r220f1","Gastó anualmente en cuota de padres/madres de familia","haven_labelled","1. Sí,
+2. No",42584,0.24295111111111112,"   0","   1.0","    1",0.9468754573393824,0.22429000587321327,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r220f2","Monto anual en cuota de padres/madres de familia","numeric",NA,55654,0.01059555555555558,"1.0e+00","1.0e+01","    30",10.971057046979865,7.960214962054625,NA,"▇▆▂▃▁","F8.2","7"
+"r221a1","Gastó mensualmente en cuota escolar","haven_labelled","1. Sí,
+2. No",42584,0.24295111111111112,"   0","   1.0","    1",0.8159666325186594,0.3875255813030238,2,"▂▁▁▁▁▁▁▇","F1.0","6"
+"r221a2","Monto mensual en cuota escolar","numeric",NA,54069,0.038773333333333326,"5.0e+00","5.0e+01","   200",55.39160935350757,37.393660588732246,NA,"▇▇▂▁▁","F8.2","7"
+"r221b1","Gastó mensualmente en transporte","haven_labelled","1. Sí,
+2. No",42584,0.24295111111111112,"   0","   1.0","    1",0.6974974388994585,0.459358468031493,2,"▃▁▁▁▁▁▁▇","F1.0","6"
+"r221b2","Monto mensual en transporte","numeric",NA,52221,0.07162666666666662,"1.0e+00","2.0e+01","   200",23.709868453710598,22.629323681357352,NA,"▇▁▁▁▁","F8.2","7"
+"r221c1","Gastó mensualmente en refrigerio","haven_labelled","1. Sí,
+2. No",42584,0.24295111111111112,"   0","   0.0","    1",0.14261671301039075,0.3496943442249685,2,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r221c2","Monto mensual en refrigerio","numeric",NA,44793,0.20367999999999997,"1.0e+00","2.0e+01","   160",26.80823950423322,21.609795960194443,NA,"▇▂▁▁▁","F8.2","7"
+"r221d1","Tuvo otros gastos mensuales escolares","haven_labelled","1. Sí,
+2. No",42584,0.24295111111111112,"   0","   1.0","    1",0.9062637201814723,0.2914721363367347,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r221d2","Monto mensual en otros gastos","numeric",NA,55051,0.021315555555555532,"1.0e+00","3.5e+00","   300",16.49231859883236,35.82350288185756,NA,"▇▁▁▁▁","F8.2","7"
+"gasto_mat_iniciacion","Monto anual gastado en educación el año anterior para este año","numeric",NA,56131,0.002115555555555537,"1.0e+01","3.0e+01","   170",46.477310924369746,39.7397586998355,NA,"▇▃▂▁▁","F8.2","7"
+"r301","Tipo de vivienda","haven_labelled","1. Casa privada o independiente,
+2. Apartamento,
+3. Condominio,
+4. Pieza en una casa,
+5. Pieza en un mesón,
+6. Casa improvisada,
+7. Rancho,
+8. Temporal (Fenómenos naturales: terremotos, inundaciones, etc),
+9. Otro tipo de vivienda",0,1,"   1","   1.0","    7",1.1340088888888888,0.6765441427008302,9,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r301otr","Otro tipo de vivienda","numeric",NA,56250,0,"     NA","     NA","    NA",NA,NA,NA," ","F2.0","6"
+"r301b","Número de pisos (Concominio)","numeric",NA,56143,0.0019022222222222496,"1.0e+00","3.0e+00","     5",2.8598130841121496,0.9560985791406335,NA,"▁▇▃▅▁","F2.0","6"
+"r301c","Vivienda en buen estado","haven_labelled","1. Sí,
+2. No",334,0.9940622222222222,"   1","   1.0","    2",1.1018313184061808,0.30242906064943725,2,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r302","Material predominante en el techo","haven_labelled","1. Losa de concreto,
+2. Teja de barro o cemento,
+3. Lámina de asbesto o fibra de cemento,
+4. Lámina metálica,
+5. Paja o palma,
+6. Materiales de desecho,
+7. Otros materiales",0,1,"   1","   4.0","    7",3.328142222222222,0.8982744718798895,7,"▁▃▂▇▁▁▁▁","F1.0","6"
+"r302b","Techo en buen estado","haven_labelled","1. Sí,
+2. No",30,0.9994666666666666,"   1","   1.0","    2",1.1137673425827108,0.3175313020244834,2,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r302otr","Otro material predominante en el techo","numeric",NA,56238,2.1333333333328763e-4,"1.0e+00","1.0e+00","     9",3.6666666666666665,3.9389277113386476,NA,"▇▁▁▁▃","F2.0","6"
+"r303","Material predominante en las paredes","haven_labelled","1. Concreto o mixto,
+2. Bahareque,
+3. Adobe,
+4. Madera,
+5. Lámina metálica,
+6. Paja o palma,
+7. Materiales de desecho,
+8. Otros materiales",0,1,"   1","   1.0","    8",1.658968888888889,1.2989341779615007,8,"▇▁▂▁▁▁▁▁","F1.0","6"
+"r303b","Paredes en buen estado","haven_labelled","1. Sí,
+2. No",126,0.99776,"   1","   1.0","    2",1.1010084812201553,0.30134263873463146,2,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r303otr","Otro material predominante en las paredes","numeric",NA,56056,0.0034488888888888347,"1.0e+00","1.5e+00","     9",2.2938144329896906,2.093974302586886,NA,"▇▂▁▁▁","F2.0","6"
+"r304","Material predominante en el piso","haven_labelled","1. Ladrillo cerámico,
+2. Ladrillo de cemento,
+3. Ladrillo de barro,
+4. Cemento,
+5. Tierra,
+6. Otros materiales",0,1,"   1","   2.0","    6",2.7034133333333332,1.4727462698967106,6,"▇▇▁▁▇▁▃▁","F1.0","6"
+"r304otr","Otro material predominante en el piso","numeric",NA,56225,4.444444444444695e-4,"3.0e+00","4.0e+00","     8",5,1.5545631755148024,NA,"▇▁▅▁▂","F2.0","6"
+"r305","Habitaciones de uso exclusivo del hogar","numeric",NA,0,1,"1.0e+00","3.0e+00","    10",2.8258133333333335,1.3691404835681156,NA,"▆▇▁▁▁","F2.0","6"
+"r306","Habitaciones utilizadas exclusivamente como dormitorios","numeric",NA,0,1,"0.0e+00","2.0e+00","     9",1.6578133333333334,1.2480252747233131,NA,"▆▇▁▁▁","F2.0","6"
+"r307","Habitaciones utilizadas exclusivamente para trabajar o para negocio","numeric",NA,0,1,"0.0e+00","0.0e+00","     7",0.02885333333333333,0.1792925944227314,NA,"▇▁▁▁▁","F1.0","6"
+"r308","Forma de tenencia de la vivienda","haven_labelled","1. Inquilino(a),
+2. Propietario(a) de la vivienda pero la está pagando a plazos,
+3. Propietario(a),
+4. Propietario(a) de la vivienda en terreno público,
+5. Propietario(a) de la vivienda en terreno privado,
+5.1. Propietario(a) de la vivienda en terreno privado de familiar,
+6. Colono(a),
+7. Guardián de la vivienda,
+8. Ocupante gratuito,
+9. Otros",0,1,"   1","   3.0","    9",3.995521777777778,2.2578821146964394,10,"▂▇▁▁▁▁▃▁","F1.0","6"
+"r308otr","Otra forma de tenencia de la vivienda","numeric",NA,56235,2.666666666666373e-4,"1.0e+00","1.0e+00","     1",1,0,NA,"▁▁▇▁▁","F2.0","6"
+"r308b","Número de orden del propietario","numeric",NA,23511,0.5820266666666667,"1.0e+00","1.0e+00","     8",1.2392864779009745,0.6388043837917328,NA,"▇▁▁▁▁","F2.0","6"
+"r308c","Cuota mensual (alquiler o pago a plazos)","numeric",NA,48681,0.13456,"1.0e+01","1.0e+02","  1600",127.93729554762848,120.76377672325658,NA,"▇▁▁▁▁","F8.2","7"
+"r309","Paga con algún bien o servicio el uso de la vivienda","haven_labelled","1. Sí,
+2. No",43938,0.21887999999999996,"   1","   2.0","    2",1.940220922677063,0.23708670293891945,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r310","Valor que tendrían los bienes o servicios pagados","numeric",NA,55524,0.012906666666666622,"1.0e+01","5.0e+01","   500",72.58264462809917,73.88302535973091,NA,"▇▁▁▁▁","F8.2","7"
+"r310a","Valor que pagaría por mes si tuviera que alquilar la vivienda","numeric",NA,10448,0.8142577777777777,"1.0e+01","7.5e+01","  1500",102.31413475394088,103.6677162771375,NA,"▇▁▁▁▁","F8.2","7"
+"r311","Tipo de alumbrado de la vivienda","haven_labelled","1. Electricidad,
+2. Conexión eléctrica del vecino(a),
+3. Kerosene (gas),
+4. Candela,
+5. Panel solar,
+6. Generador eléctrico,
+7. Otra clase",0,1,"   1","   1.0","    7",1.1791466666666666,0.6399187245055975,7,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r311otr","Otro tipo de alumbrado de la vivienda","numeric",NA,55906,0.006115555555555541,"1.0e+00","1.0e+00","     8",2.005813953488372,1.8310477270395933,NA,"▇▁▂▁▁","F2.0","6"
+"r312","Tiene la vivienda servicio de agua por cañería","haven_labelled","1. Dentro de la vivienda con abastecimiento público (ANDA),
+2. Dentro de la vivienda con otro tipo de abastecimiento,
+3. Fuera de la vivienda pero dentro de la propiedad con abastecimiento público (ANDA),
+4. Fuera de la vivienda pero dentro de la propiedad con otro tipo de abastecimiento,
+4.1. Tubería por poliducto (buen estado),
+5. No tiene,
+6. Tiene pero no le cae (por más de un mes)",0,1,"   1","   4.0","    6",3.209456,1.4959954744795465,7,"▆▂▁▂▇▁▅▁","F2.1","6"
+"r312d","Días de la última semana que le cayó agua","numeric",NA,11680,0.7923555555555556,"0.0e+00","7.0e+00","     7",5.3366838680726945,2.150216634484474,NA,"▁▁▃▁▇","F1.0","6"
+"r312h","Horas al día de la última semana que le cayo agua","numeric",NA,11680,0.7923555555555556,"0.0e+00","2.3e+01","    24",15.275342158402513,9.31344072692201,NA,"▃▂▂▁▇","F2.0","6"
+"r313","Forma de abastecimiento de agua de la vivienda","haven_labelled","1. Cañería del vecino(a),
+2. Pila, chorro público o cantarera,
+3. Camión, carreta o pipa,
+4. Pozo con tubería privado,
+4.1. Pozo con tubería público,
+5. Pozo protegido privado,
+5.1. Pozo protegido público,
+6. Pozo no protegido privado,
+6.1. . 'Pozo no protegido público',
+7. Ojo de agua, río o quebrada,
+8. Manantial protegido,
+9. Manantial no protegido,
+10. Colecta agua lluvia,
+11. Acarreo de cañería del vecino(a),
+12. Chorro común,
+13. Otros medios",44570,0.2076444444444444,"   1","   3.0","   13",3.6936986301369865,2.9999003354050036,16,"▇▃▂▂▁▁▁▁","F2.1","6"
+"r313otr","Otra forma de abastecimiento de agua de la vivienda","numeric",NA,56104,0.002595555555555573,"1.0e+00","2.0e+00","     4",2.1027397260273974,0.5474637705511949,NA,"▁▇▁▁▁","F2.0","6"
+"r314","Tiene servicio sanitario de la vivienda","haven_labelled","1. Sí, dentro de la vivienda,
+2. Sí, fuera de la vivienda,
+3. Sí tiene pero no lo utiliza,
+4. No tiene",0,1,"   1","   2.0","    4",1.7702933333333333,0.7131958597540992,4,"▅▁▇▁▁▁▁▁","F1.0","6"
+"r315","Cuenta con acceso a servicio sanitario la vivienda","haven_labelled","1. 1.Si de familiar  o amigos(a),
+2. 2.No tiene",53123,0.05559111111111115,"   1","   1.0","    2",1.2737448033258714,0.4459508766377499,2,"▇▁▁▁▁▁▁▃","F1.0","6"
+"r316","Tipo de servicio sanitario que utiliza","haven_labelled","1. Inodoro a alcantarillado,
+2. Inodoro a fosa séptica,
+3. Inodoro común a alcantarillado,
+4. Inodoro común a fosa séptica,
+5. Letrina privada,
+6. Letrina común,
+7. Letrina abonera privada,
+8. Letrina abonera común,
+9. Letrina solar privada,
+10. Letrina solar común",856,0.9847822222222222,"   1","   2.0","   10",3.1415135213199985,2.038185799251739,10,"▇▁▁▃▁▁▁▁","F2.0","6"
+"r317a","Forma en la que se deshacen de las excretas","haven_labelled","1. Las depositan en servicio sanitario,
+2. Se depositan en un pozo o resumidero,
+3. Se depositan en una quebrada o río,
+4. va a la calle o al aire libre,
+5. Otros",55394,0.015217777777777775,"   1","   4.0","    5",3.9205607476635516,0.4055148065036705,5,"▁▁▁▁▁▇▁▁","F1.0","6"
+"r317b","Forma en la que se deshacen de las excretas","haven_labelled","1. Las depositan en servicio sanitario,
+2. Se depositan en un pozo o resumidero,
+3. Se depositan en una quebrada o río,
+4. va a la calle o al aire libre,
+5. Otros",56242,1.4222222222226577e-4,"   5","   5.0","    5",5,0,5,"▁▁▁▇▁▁▁▁","F1.0","6"
+"r317c","Forma en la que se deshacen de las excretas","haven_labelled","1. Las depositan en servicio sanitario,
+2. Se depositan en un pozo o resumidero,
+3. Se depositan en una quebrada o río,
+4. va a la calle o al aire libre,
+5. Otros",56250,0," Inf","    NA"," -Inf",NA,NA,5," ","F1.0","6"
+"r317otr","Otra forma en la que se deshacen de las excretas","numeric",NA,56232,3.1999999999998696e-4,"1.0e+00","1.0e+00","     2",1.0555555555555556,0.23570226039551584,NA,"▇▁▁▁▁","F2.0","6"
+"r318","Forma en la que se deshacen de las aguas grises","haven_labelled","1. Alcantarillado,
+2. Pozo o resumidero,
+3. Fosa séptica,
+4. Quebrada o río,
+5. A la calle o al aire libre,
+6. Otros",0,1,"   1","   5.0","    6",3.76144,1.759569944662061,6,"▃▁▁▁▁▁▇▁","F1.0","6"
+"r318otr","Otra forma en la que se deshacen de las aguas grises","numeric",NA,56236,2.488888888888541e-4,"2.0e+00","3.5e+00","     4",3.4285714285714284,0.646206172658864,NA,"▁▁▇▁▇","F2.0","6"
+"r319a1","Recibe el hogar subsidio de gas","haven_labelled","1. Sí,
+2. No,
+3. No sabe/No responde",0,1,"   1","   1.0","    3",1.396568888888889,0.491328886449894,3,"▇▁▁▅▁▁▁▁","F1.0","6"
+"r319a2","Recibe el hogar subsidio de energía eléctrica","haven_labelled","1. Sí,
+2. No,
+3. No sabe/No responde",0,1,"   1","   2.0","    3",1.5607466666666667,0.5212156782119317,3,"▇▁▁▇▁▁▁▁","F1.0","6"
+"r319a3","Recibe el hogar bonos comunidades solidarias rurales","haven_labelled","1. Sí,
+2. No,
+3. No sabe/No responde",0,1,"   1","   2.0","    3",2.000906666666667,0.058264859589653266,3,"▁▁▁▇▁▁▁▁","F1.0","6"
+"r319a4","Recibe el hogar bonos comunidades solidarias urbanas","haven_labelled","1. Sí,
+2. No,
+3. No sabe/No responde",0,1,"   1","   2.0","    3",2.0014933333333333,0.0461642846348032,3,"▁▁▁▇▁▁▁▁","F1.0","6"
+"r319a5","Recibe el hogar pensión básica universal","haven_labelled","1. Sí,
+2. No,
+3. No sabe/No responde",0,1,"   1","   2.0","    3",1.9972977777777778,0.10613203736491653,3,"▁▁▁▇▁▁▁▁","F1.0","6"
+"r319a6","Recibe el hogar subsidio de agua","haven_labelled","1. Sí,
+2. No,
+3. No sabe/No responde",0,1,"   1","   2.0","    3",1.8396444444444444,0.38333599617335634,3,"▂▁▁▇▁▁▁▁","F1.0","6"
+"r319a7","Recibe el hogar otro beneficio","haven_labelled","1. Sí,
+2. No,
+3. No sabe/No responde",0,1,"   1","   2.0","    3",1.7512177777777778,0.4383957374700494,3,"▃▁▁▇▁▁▁▁","F1.0","6"
+"r319a8","Recibe el hogar paquete agrícola","haven_labelled","1. Sí,
+2. No,
+3. No sabe/No responde",0,1,"   1","   2.0","    3",1.7995377777777777,0.4086999446563208,3,"▂▁▁▇▁▁▁▁","F1.0","6"
+"r319aotr","Otro beneficio que recibe el hogar","numeric",NA,42107,0.25143111111111116,"1.0e+00","3.0e+00","     4",3.0041716750335854,0.13526580190122314,NA,"▁▁▁▇▁","F2.0","6"
+"r320","Combustible utilizado predominantemente para cocinar","haven_labelled","1. Electricidad,
+2. Kerosene (gas),
+3. Gas propano,
+4. Leña,
+5. Carbón,
+6. Ninguno,
+7. Otros",0,1,"   1","   3.0","    6",3.0618133333333333,0.42294741305933764,7,"▁▁▁▇▁▁▁▁","F1.0","6"
+"r320otr_02","Otro combustible utilizado predominantemente para cocinar","numeric",NA,56250,0,"     NA","     NA","    NA",NA,NA,NA," ","F2.0","6"
+"r3211a","Tiene el hogar teléfono fijo","haven_labelled","1. Sí,
+2. No",0,1,"   1","   2.0","    2",1.8956266666666666,0.3057469583009239,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r3211b","Número de teléfonos fijos","numeric",NA,50379,0.10437333333333332,"1.0e+00","1.0e+00","     4",1.0117526826775678,0.14661952575079504,NA,"▇▁▁▁▁","F1.0","6"
+"r3212a","Tiene el hogar teléfono celular","haven_labelled","1. Sí,
+2. No",0,1,"   1","   1.0","    2",1.0245866666666668,0.15486312939503688,2,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r3212b","Número de teléfonos celulares","numeric",NA,1383,0.9754133333333334,"1.0e+00","2.0e+00","    11",2.6370495926513207,1.291424073652815,NA,"▇▂▁▁▁","F2.0","6"
+"r3213a","Tiene el hogar internet","haven_labelled","1. Sí,
+2. No",0,1,"   1","   2.0","    2",1.62688,0.48363790579544436,2,"▅▁▁▁▁▁▁▇","F1.0","6"
+"r3213a1","Tiene el hogar internet móvil","haven_labelled","1. Sí,
+2. No",0,1,"   1","   2.0","    2",1.9965333333333333,0.05877678373270345,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r3214a","Tiene el hogar cable","haven_labelled","1. Sí,
+2. No",0,1,"   1","   2.0","    2",1.6060444444444444,0.4886295328812216,2,"▅▁▁▁▁▁▁▇","F1.0","6"
+"r3215a","Tiene el hogar cable del vecino","haven_labelled","1. Sí,
+2. No",0,1,"   1","   2.0","    2",1.9706666666666666,0.16874061479851032,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r322","Forma en la que se deshace de la basura","haven_labelled","1. Recolección domiciliaria pública,
+2. Recolección domiciliaria privada,
+3. La depositan en contenedores,
+4. La entierran,
+5. La queman,
+6. La depositan en cualquier lugar,
+7. Otros,
+8. La recicla",0,1,"   1","   1.0","    8",2.806897777777778,1.9768906304094456,8,"▇▁▁▁▆▁▁▁","F1.0","6"
+"r322otr","Otra forma en la que se deshace de la basura","numeric",NA,56162,0.0015644444444444794,"1.0e+00","3.0e+00","     6",2.8181818181818183,1.3858517821053131,NA,"▇▇▅▁▁","F2.0","6"
+"r32301a","Tiene el hogar radio","haven_labelled","1. Sí,
+2. No",0,1,"   1","   2.0","    2",1.7210133333333333,0.44850494156440557,2,"▃▁▁▁▁▁▁▇","F1.0","6"
+"r32301b","Número de radios","numeric",NA,40557,0.2789866666666667,"1.0e+00","1.0e+00","     4",1.0078378895048747,0.10711257380044023,NA,"▇▁▁▁▁","F2.0","6"
+"r32302a","Tiene el hogar equipo de sonido","haven_labelled","1. Sí,
+2. No",0,1,"   1","   2.0","    2",1.6077155555555556,0.4882638603685281,2,"▅▁▁▁▁▁▁▇","F1.0","6"
+"r32302b","Número de equipos de sonido","numeric",NA,34184,0.39228444444444444,"1.0e+00","1.0e+00","     4",1.014003444212816,0.16305948302035694,NA,"▇▁▁▁▁","F1.0","6"
+"r32303a","Tiene el hogar televisor","haven_labelled","1. Sí,
+2. No",0,1,"   1","   1.0","    2",1.1516622222222221,0.3586963617274121,2,"▇▁▁▁▁▁▁▂","F1.0","6"
+"r32303b","Número de televisores","numeric",NA,8531,0.8483377777777777,"1.0e+00","1.0e+00","     5",1.1391688845114105,0.4224210822971504,NA,"▇▁▁▁▁","F2.0","6"
+"r32304a","Tiene el hogar video casetera o DVD","haven_labelled","1. Sí,
+2. No",0,1,"   1","   2.0","    2",1.8651199999999999,0.3415983900420059,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r32304b","Número de video caseteras o DVD","numeric",NA,48663,0.13488,"1.0e+00","1.0e+00","     3",1.0138394622380387,0.12126130806339767,NA,"▇▁▁▁▁","F2.0","6"
+"r32305a","Tiene el hogar refrigeradora","haven_labelled","1. Sí,
+2. No",0,1,"   1","   1.0","    2",1.1655288888888888,0.371660505708866,2,"▇▁▁▁▁▁▁▂","F1.0","6"
+"r32305b","Número de refrigeradoras","numeric",NA,9311,0.8344711111111112,"1.0e+00","1.0e+00","     3",1.0170007882570997,0.13865811217948307,NA,"▇▁▁▁▁","F1.0","6"
+"r32306a","Tiene el hogar lavadora","haven_labelled","1. Sí,
+2. No",0,1,"   1","   2.0","    2",1.7303111111111111,0.4438020883401704,2,"▃▁▁▁▁▁▁▇","F1.0","6"
+"r32306b","Número de lavadoras","numeric",NA,41080,0.26968888888888887,"1.0e+00","1.0e+00","     2",1.0059327620303231,0.07679813250072114,NA,"▇▁▁▁▁","F1.0","6"
+"r32307a","Tiene el hogar licuadora","haven_labelled","1. Sí,
+2. No",0,1,"   1","   1.0","    2",1.2666666666666666,0.44222056958103123,2,"▇▁▁▁▁▁▁▃","F1.0","6"
+"r32307b","Número de licuadoras","numeric",NA,15000,0.7333333333333334,"1.0e+00","1.0e+00","     3",1.0077818181818181,0.09927151517931344,NA,"▇▁▁▁▁","F1.0","6"
+"r32308a","Tiene el hogar ventilador","haven_labelled","1. Sí,
+2. No",0,1,"   1","   1.0","    2",1.4103644444444445,0.49190422732990075,2,"▇▁▁▁▁▁▁▆","F1.0","6"
+"r32308b","Número de ventiladores","numeric",NA,23083,0.5896355555555556,"1.0e+00","1.0e+00","     6",1.4270208339614676,0.7479313554375119,NA,"▇▁▁▁▁","F2.0","6"
+"r32309a","Tiene el hogar computadora","haven_labelled","1. Sí,
+2. No",0,1,"   1","   1.0","    2",1.378808888888889,0.48509473095383576,2,"▇▁▁▁▁▁▁▅","F1.0","6"
+"r32309b","Número de computadoras","numeric",NA,21308,0.6211911111111111,"1.0e+00","1.0e+00","     5",1.5456470722912254,0.7867330442821386,NA,"▇▃▁▁▁","F1.0","6"
+"r32310a","Tiene el hogar secadora de ropa","haven_labelled","1. Sí,
+2. No",0,1,"   1","   2.0","    2",1.9957866666666666,0.0647738816575865,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r32310b","Número de secadoras de ropa","numeric",NA,56013,0.004213333333333291,"1.0e+00","1.0e+00","     2",1.0590717299578059,0.23625786490890963,NA,"▇▁▁▁▁","F1.0","6"
+"r32311a","Tiene el hogar máquina de coser","haven_labelled","1. Sí,
+2. No",0,1,"   1","   2.0","    2",1.9152,0.278586323676115,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r32311b","Número de máquinas de coser","numeric",NA,51480,0.08479999999999999,"1.0e+00","1.0e+00","     2",1.0469601677148848,0.21157574272887247,NA,"▇▁▁▁▁","F1.0","6"
+"r32312a","Tiene el hogar vehículo (uso del hogar)","haven_labelled","1. Sí,
+2. No",0,1,"   1","   2.0","    2",1.748888888888889,0.4336561589958322,2,"▃▁▁▁▁▁▁▇","F1.0","6"
+"r32312b","Número de vehículos","numeric",NA,42125,0.25111111111111106,"1.0e+00","1.0e+00","     4",1.1539115044247787,0.44168554669525073,NA,"▇▁▁▁▁","F1.0","6"
+"r32313a","Tiene el hogar plancha","haven_labelled","1. Sí,
+2. No",0,1,"   1","   1.0","    2",1.2794311111111112,0.44872368431165915,2,"▇▁▁▁▁▁▁▃","F1.0","6"
+"r32313b","Número de planchas","numeric",NA,15718,0.7205688888888888,"1.0e+00","1.0e+00","     3",1.0131254317576237,0.12654193386970095,NA,"▇▁▁▁▁","F1.0","6"
+"r32314a","Tiene el hogar horno microondas","haven_labelled","1. Sí,
+2. No",0,1,"   1","   2.0","    2",1.8339377777777779,0.3721397890338116,2,"▂▁▁▁▁▁▁▇","F1.0","6"
+"r32314b","Número de hornos microondas","numeric",NA,46909,0.16606222222222222,"1.0e+00","1.0e+00","     2",1.0056739107161974,0.07511538784865103,NA,"▇▁▁▁▁","F1.0","6"
+"r32315a","Tiene el hogar videojuegos","haven_labelled","1. Sí,
+2. No",0,1,"   1","   2.0","    2",1.9757333333333333,0.15387727740516688,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r32315b","Número de videojuegos","numeric",NA,54885,0.02426666666666666,"1.0e+00","1.0e+00","     2",1.0571428571428572,0.23220045368440656,NA,"▇▁▁▁▁","F1.0","6"
+"r32316a","Tiene el hogar generador de electricidad","haven_labelled","1. Sí,
+2. No",0,1,"   1","   2.0","    2",1.9995022222222223,0.022305578678811843,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r32316b","Número de generadores de electricidad","numeric",NA,56222,4.977777777778192e-4,"1.0e+00","1.0e+00","     1",1,0,NA,"▁▁▇▁▁","F1.0","6"
+"r32317a","Tiene el hogar aire acondicionado","haven_labelled","1. Sí,
+2. No",0,1,"   1","   2.0","    2",1.9702933333333332,0.16977836452625517,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r32317b","Número de aires acondicionados","numeric",NA,54579,0.02970666666666666,"1.0e+00","1.0e+00","     4",1.4063435068821066,0.7312906967341851,NA,"▇▂▁▁▁","F1.0","6"
+"r32318a","Tiene el hogar tanque o cisterna","haven_labelled","1. Sí,
+2. No",0,1,"   1","   2.0","    2",1.9169955555555556,0.27589139135049207,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r32318b","Número de tanques o cisternas","numeric",NA,51581,0.08300444444444444,"1.0e+00","1.0e+00","     2",1.059327479117584,0.23626189858387447,NA,"▇▁▁▁▁","F1.0","6"
+"r32319a","Tiene el hogar motocicleta","haven_labelled","1. Sí,
+2. No",0,1,"   1","   2.0","    2",1.8197333333333334,0.3844128283955531,2,"▂▁▁▁▁▁▁▇","F1.0","6"
+"r32319b","Número de motocicletas","numeric",NA,46110,0.1802666666666667,"1.0e+00","1.0e+00","     3",1.106508875739645,0.36149769202513493,NA,"▇▁▁▁▁","F1.0","6"
+"r324","Ha tenido algún problema por corrientes de agua en la vivienda","haven_labelled","1. Sí,
+2. No",0,1,"   1","   2.0","    2",1.9437511111111112,0.23040376545729707,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r3251","Tuvo daños en la vivienda","haven_labelled","1. Sí,
+2. No",53086,0.056248888888888904,"   1","   1.0","    2",1.2676991150442478,0.4428298508596374,2,"▇▁▁▁▁▁▁▃","F1.0","6"
+"r3252","Tuvo pérdida de muebles o enseres","haven_labelled","1. Sí,
+2. No",53086,0.056248888888888904,"   1","   2.0","    2",1.6245259165613148,0.48432162088969455,2,"▅▁▁▁▁▁▁▇","F1.0","6"
+"r3253","Tuvo pérdida de alimentos","haven_labelled","1. Sí,
+2. No",53086,0.056248888888888904,"   1","   2.0","    2",1.8302781289506953,0.37544761155871237,2,"▂▁▁▁▁▁▁▇","F1.0","6"
+"r3254","Tuvo pérdida de animales de granja","haven_labelled","1. Sí,
+2. No",53086,0.056248888888888904,"   1","   2.0","    2",1.9156131479140328,0.27801104162302764,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r3255","Tuvo lesiones a un miembro del hogar","haven_labelled","1. Sí,
+2. No",53086,0.056248888888888904,"   1","   2.0","    2",1.9740834386852086,0.15891153034771904,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r3256","Tuvo enfermedad en un miembro del hogar","haven_labelled","1. Sí,
+2. No",53086,0.056248888888888904,"   1","   2.0","    2",1.8792667509481669,0.32586852205289524,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r3257","Tuvo otros daños","haven_labelled","1. Sí,
+2. No",53086,0.056248888888888904,"   1","   2.0","    2",1.8599873577749684,0.3470549959991417,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r326","Ha sufrido en la vivienda algún derrumbe o alúd","haven_labelled","1. Sí,
+2. No",0,1,"   1","   2.0","    2",1.9816177777777777,0.13433032763281844,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r327","Hay alguna cárcava o quebrada que pueda afectar a la vivienda","haven_labelled","1. Sí,
+2. No",0,1,"   1","   2.0","    2",1.9519111111111112,0.21395598021678414,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r32801a","Tipo de gasto en agua (servicio de ANDA)","haven_labelled","1. Pagado o comprado,
+2. Donado o regalado,
+3. Autoconsumo/Autosuministro,
+4. Incluido en el alquiler,
+5. No gastó,
+6. No sabe/No responde",0,1,"   1","   5.0","    6",3.722773333333333,1.884224462504166,6,"▃▁▁▁▁▁▇▁","F1.0","6"
+"r32801b","Gasto mensual en agua (servicio de ANDA)","numeric",NA,38105,0.32257777777777774,"1.0e+00","5.0e+00","   150",8.378844860843207,11.780641849998807,NA,"▇▁▁▁▁","F8.2","7"
+"r32801a1","Tipo de gasto en agua envasada","haven_labelled","1. Pagado o comprado,
+2. Donado o regalado,
+3. Autoconsumo/Autosuministro,
+4. Incluido en el alquiler,
+5. No gastó,
+6. No sabe/No responde",0,1,"   1","   5.0","    6",3.7651733333333333,1.8480721002312417,6,"▃▁▁▁▁▁▇▁","F1.0","6"
+"r32801b1","Gasto mensual en agua envasada","numeric",NA,38877,0.3088533333333333,"1.0e+00","1.5e+01","    80",17.19861221435561,11.343807239101894,NA,"▇▅▁▁▁","F8.2","7"
+"r32801a2","Tipo de gasto en agua (otras fuentes)","haven_labelled","1. Pagado o comprado,
+2. Donado o regalado,
+3. Autoconsumo/Autosuministro,
+4. Incluido en el alquiler,
+5. No gastó,
+6. No sabe/No responde",0,1,"   1","   2.0","    6",2.9955555555555553,1.997700365456415,6,"▇▁▁▁▁▁▇▁","F1.0","6"
+"r32801b2","Gasto mensual en agua (otras fuentes)","numeric",NA,27993,0.5023466666666667,"1.0e+00","5.5e+00","   160",7.677194323530452,9.044718428677687,NA,"▇▁▁▁▁","F8.2","7"
+"r32802a","Tipo de gasto en electricidad","haven_labelled","1. Pagado o comprado,
+2. Donado o regalado,
+3. Autoconsumo/Autosuministro,
+4. Incluido en el alquiler,
+5. No gastó,
+6. No sabe/No responde",0,1,"   1","   1.0","    6",1.2444977777777777,0.9938066855520784,6,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r32802b","Gasto mensual en electricidad","numeric",NA,3163,0.9437688888888889,"1.0e+00","2.0e+01","   300",26.227615612108426,24.77133758795735,NA,"▇▁▁▁▁","F8.2","7"
+"r32803a","Tipo de gasto en kerosene","haven_labelled","1. Pagado o comprado,
+2. Donado o regalado,
+3. Autoconsumo/Autosuministro,
+4. Incluido en el alquiler,
+5. No gastó,
+6. No sabe/No responde",0,1,"   1","   5.0","    6",4.993084444444444,0.16440258863060855,6,"▁▁▁▁▁▁▇▁","F1.0","6"
+"r32803b","Gasto mensual en kerosene","numeric",NA,56176,0.0013155555555555143,"1.6e+00","4.0e+00","    16",4.624324324324324,2.9610513132457186,NA,"▇▃▁▁▁","F8.2","7"
+"r32804a","Tipo de gasto en gas propano","haven_labelled","1. Pagado o comprado,
+2. Donado o regalado,
+3. Autoconsumo/Autosuministro,
+4. Incluido en el alquiler,
+5. No gastó,
+6. No sabe/No responde",0,1,"   1","   1.0","    6",1.7933511111111111,1.5979123415779835,6,"▇▁▁▁▁▁▂▁","F1.0","6"
+"r32804b","Gasto mensual en gas propano","numeric",NA,11117,0.8023644444444444,"1.0e+00","4.0e+00","    50",6.887001307247469,4.433057863347229,NA,"▇▅▁▁▁","F8.2","7"
+"r32805a","Tipo de gasto en candela","haven_labelled","1. Pagado o comprado,
+2. Donado o regalado,
+3. Autoconsumo/Autosuministro,
+4. Incluido en el alquiler,
+5. No gastó,
+6. No sabe/No responde",0,1,"   1","   5.0","    6",4.943573333333333,0.46896807171210925,6,"▁▁▁▁▁▁▇▁","F1.0","6"
+"r32805b","Gasto mensual en candela","numeric",NA,55495,0.013422222222222224,"2.0e-01","2.3e+00","    15",3.830913907284768,3.342735476133356,NA,"▇▂▁▂▁","F8.2","7"
+"r32806a","Tipo de gasto en leña","haven_labelled","1. Pagado o comprado,
+2. Donado o regalado,
+3. Autoconsumo/Autosuministro,
+4. Incluido en el alquiler,
+5. No gastó,
+6. No sabe/No responde",0,1,"   1","   5.0","    6",4.8066844444444445,0.8514417743723774,6,"▁▁▁▁▁▁▇▁","F1.0","6"
+"r32806b","Gasto mensual en leña","numeric",NA,53604,0.04703999999999997,"5.0e-01","1.0e+01","    30",12.048737717309146,9.540417351738837,NA,"▇▅▂▂▃","F8.2","7"
+"r32807a","Tipo de gasto en carga de batería","haven_labelled","1. Pagado o comprado,
+2. Donado o regalado,
+3. Autoconsumo/Autosuministro,
+4. Incluido en el alquiler,
+5. No gastó,
+6. No sabe/No responde",0,1,"   1","   5.0","    6",4.980622222222222,0.22017878395801202,6,"▁▁▁▁▁▁▇▁","F1.0","6"
+"r32807b","Gasto mensual en carga de batería","numeric",NA,56191,0.001048888888888877,"1.0e+00","4.0e+00","    14",5.2322033898305085,3.600787302701821,NA,"▇▅▁▂▂","F8.2","7"
+"r32808a","Tipo de gasto en internet móvil","haven_labelled","1. Pagado o comprado,
+2. Donado o regalado,
+3. Autoconsumo/Autosuministro,
+4. Incluido en el alquiler,
+5. No gastó,
+6. No sabe/No responde",0,1,"   1","   5.0","    6",4.99392,0.15753351427881382,6,"▁▁▁▁▁▁▇▁","F1.0","6"
+"r32808b","Gasto mensual en internet móvil","numeric",NA,56163,0.0015466666666666962,"3.0e+00","1.5e+01","    32",17.919540229885058,9.164159701902154,NA,"▂▆▇▂▆","F8.2","7"
+"r32809a","Tipo de gasto en teléfono fijo","haven_labelled","1. Pagado o comprado,
+2. Donado o regalado,
+3. Autoconsumo/Autosuministro,
+4. Incluido en el alquiler,
+5. No gastó,
+6. No sabe/No responde",0,1,"   1","   5.0","    6",5.023448888888889,0.5885487583720416,6,"▁▁▁▁▁▁▇▁","F1.0","6"
+"r32809b","Gasto mensual en teléfono fijo","numeric",NA,55339,0.01619555555555552,"5.0e+00","8.0e+00","    45",11.007969264544457,7.409254203332731,NA,"▇▂▁▁▁","F8.2","7"
+"r32810a","Tipo de gasto en celular","haven_labelled","1. Pagado o comprado,
+2. Donado o regalado,
+3. Autoconsumo/Autosuministro,
+4. Incluido en el alquiler,
+5. No gastó,
+6. No sabe/No responde",0,1,"   1","   1.0","    6",1.583911111111111,1.5022394913612294,6,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r32810b","Gasto mensual en celular","numeric",NA,7456,0.8674488888888889,"1.0e+00","1.5e+01","   150",18.679947534532936,16.372581114017507,NA,"▇▁▁▁▁","F8.2","7"
+"r32811a","Tipo de gasto en cable/cable del vecino","haven_labelled","1. Pagado o comprado,
+2. Donado o regalado,
+3. Autoconsumo/Autosuministro,
+4. Incluido en el alquiler,
+5. No gastó,
+6. No sabe/No responde",0,1,"   1","   5.0","    6",4.561528888888889,1.6718125544730604,6,"▂▁▁▁▁▁▇▃","F1.0","6"
+"r32811b","Gasto mensual en cable/cable del vecino","numeric",NA,46577,0.17196444444444448,"5.0e+00","1.5e+01","    60",16.051840173679313,5.665283027979096,NA,"▇▅▁▁▁","F8.2","7"
+"r32812a","Tipo de gasto en internet (hogar)","haven_labelled","1. Pagado o comprado,
+2. Donado o regalado,
+3. Autoconsumo/Autosuministro,
+4. Incluido en el alquiler,
+5. No gastó,
+6. No sabe/No responde",0,1,"   1","   5.0","    6",4.816248888888889,1.415361763033518,6,"▂▁▁▁▁▁▇▃","F1.0","6"
+"r32812b","Gasto mensual en internet (hogar)","numeric",NA,49969,0.11166222222222222,"4.0e+00","2.2e+01","    67",22.377457411240247,8.242952980380316,NA,"▅▇▃▁▁","F8.2","7"
+"r32813a","Tipo de gasto en cibercafé","haven_labelled","1. Pagado o comprado,
+2. Donado o regalado,
+3. Autoconsumo/Autosuministro,
+4. Incluido en el alquiler,
+5. No gastó,
+6. No sabe/No responde",0,1,"   1","   5.0","    6",4.925244444444444,0.6131163210355874,6,"▁▁▁▁▁▁▇▁","F1.0","6"
+"r32813b","Gasto mensual en cibercafé","numeric",NA,54966,0.022826666666666662,"1.0e+00","5.0e+00","    20",6.7670171339563865,5.034900849007066,NA,"▇▇▅▁▂","F8.2","7"
+"r32814a","Tipo de gasto en impuestos municipales","haven_labelled","1. Pagado o comprado,
+2. Donado o regalado,
+3. Autoconsumo/Autosuministro,
+4. Incluido en el alquiler,
+5. No gastó,
+6. No sabe/No responde",0,1,"   1","   5.0","    6",4.728177777777778,1.2801352495800635,6,"▁▁▁▁▁▁▇▁","F1.0","6"
+"r32814b","Gasto mensual en impuestos municipales","numeric",NA,50666,0.09927111111111109,"3.0e+00","5.0e+00","   200",8.14504835243553,11.284951887292364,NA,"▇▁▁▁▁","F8.2","7"
+"r32815a","Tipo de gasto en pago de vigilancia","haven_labelled","1. Pagado o comprado,
+2. Donado o regalado,
+3. Autoconsumo/Autosuministro,
+4. Incluido en el alquiler,
+5. No gastó,
+6. No sabe/No responde",0,1,"   1","   5.0","    6",4.933066666666667,0.5698080874782947,6,"▁▁▁▁▁▁▇▁","F1.0","6"
+"r32815b","Gasto mensual en pago de vigilancia","numeric",NA,55136,0.019804444444444402,"1.5e+00","1.4e+01","   200",20.11532315978456,22.169088180167407,NA,"▇▁▁▁▁","F8.2","7"
+"r32816a","Tipo de gasto en recolección de basura","haven_labelled","1. Pagado o comprado,
+2. Donado o regalado,
+3. Autoconsumo/Autosuministro,
+4. Incluido en el alquiler,
+5. No gastó,
+6. No sabe/No responde",0,1,"   1","   5.0","    6",5.018755555555556,0.6600693375082376,6,"▁▁▁▁▁▁▇▁","F1.0","6"
+"r32816b","Gasto mensual en recolección de basura","numeric",NA,55076,0.020871111111111063,"1.0e+00","3.0e+00","    15",4.533628620102214,3.6992089362037928,NA,"▇▃▁▁▁","F8.2","7"
+"r32817a","Tipo de gasto en paquete de servicios","haven_labelled","1. Pagado o comprado,
+2. Donado o regalado,
+3. Autoconsumo/Autosuministro,
+4. Incluido en el alquiler,
+5. No gastó,
+6. No sabe/No responde",0,1,"   1","   5.0","    6",3.9674133333333335,1.7575657796571047,6,"▃▁▁▁▁▁▇▁","F1.0","6"
+"r32817b","Gasto mensual en paquete de servicios","numeric",NA,41640,0.25973333333333337,"1.0e+01","3.0e+01","   130",31.30941957563313,10.06548901715629,NA,"▇▃▁▁▁","F8.2","7"
+"r32818a","Tipo de gasto en otro servicio","haven_labelled","1. Pagado o comprado,
+2. Donado o regalado,
+3. Autoconsumo/Autosuministro,
+4. Incluido en el alquiler,
+5. No gastó,
+6. No sabe/No responde",0,1,"   1","   5.0","    6",4.98912,0.25672838563445005,6,"▁▁▁▁▁▁▇▁","F1.0","6"
+"r32818b","Gasto mensual en otro servicio","numeric",NA,56052,0.0035199999999999676,"1.0e+00","4.8e+00","    40",6.438383838383839,6.5544805781140685,NA,"▇▂▁▁▁","F8.2","7"
+"r32819a","Tipo de gasto en empleadas(os) domésticas(os)","haven_labelled","1. Pagado o comprado,
+5. No gastó",0,1,"   1","   5.0","    5",4.874631111111111,0.6969697504979192,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r32819b","Gasto mensual en empleadas(os) domésticas(os)","numeric",NA,54487,0.03134222222222227,"4.0e+01","1.4e+02","   450",150.5218377765173,90.13734604297899,NA,"▇▆▁▂▁","F8.2","7"
+"r32818otr","Otro servicio que recibe el hogar","numeric",NA,56052,0.0035199999999999676,"1.0e+00","3.0e+00","    11",4.383838383838384,3.6376683297547796,NA,"▇▁▁▃▁","F2.0","6"
+"r328total","Gasto mensual total en servicios","numeric",NA,0,1,"0.0e+00","6.3e+01","  1202",78.77718791111111,70.39034014850112,NA,"▇▁▁▁▁","F8.2","7"
+"r402","Número de orden del informante","numeric",NA,3817,0.9321422222222222,"1.0e+00","1.0e+00","     9",1.5809318558922816,0.8458015248941654,NA,"▇▁▁▁▁","F2.0","6"
+"r403","Realizó algún trabajo la semana anterior para generar ingresos","haven_labelled","1. Sí,
+2. No",3817,0.9321422222222222,"   1","   2.0","    2",1.52360154864303,0.4994474190125498,2,"▇▁▁▁▁▁▁▇","F1.0","6"
+"r4041","Realizó tareas agrícolas o cuidado de animales","haven_labelled","1. Sí,
+2. No",28796,0.4880711111111111,"   1","   2.0","    2",1.9977052524222336,0.04784940028603538,2,"▁▁▁▁▁▁▁▇","F2.0","6"
+"r4041_1","Realizó pesca o recolección de mariscos","haven_labelled","1. Sí,
+2. No",28796,0.4880711111111111,"   1","   2.0","    2",1.9998543017410941,0.012069893841243335,2,"▁▁▁▁▁▁▁▇","F2.0","6"
+"r4042","Trabajó en algun negocio propio o familiar","haven_labelled","1. Sí,
+2. No",28796,0.4880711111111111,"   1","   2.0","    2",1.9963939680920813,0.05994296723604894,2,"▁▁▁▁▁▁▁▇","F2.0","6"
+"r4043","Vendió algun producto, lotería, periódicos, etc","haven_labelled","1. Sí,
+2. No",28796,0.4880711111111111,"   1","   2.0","    2",1.9998178771763677,0.01349430575047813,2,"▁▁▁▁▁▁▁▇","F2.0","6"
+"r4044","Cocinó, lavó ropa ajena u otros servicios particulares","haven_labelled","1. Sí,
+2. No",28796,0.4880711111111111,"   1","   2.0","    2",1.9993807823996503,0.024876830817036108,2,"▁▁▁▁▁▁▁▇","F2.0","6"
+"r4045","Elaboró tortillas para vender","haven_labelled","1. Sí,
+2. No",28796,0.4880711111111111,"   1","   2.0","    2",1.9998178771763677,0.01349430575047813,2,"▁▁▁▁▁▁▁▇","F2.0","6"
+"r4046","Hizo comida típica para vender (pupusas, tamales, etc)","haven_labelled","1. Sí,
+2. No",28796,0.4880711111111111,"   1","   2.0","    2",1.9993079332701975,0.026298535418256542,2,"▁▁▁▁▁▁▁▇","F2.0","6"
+"r4047","Elaboró algún otro producto en casa para vender","haven_labelled","1. Sí,
+2. No",28796,0.4880711111111111,"   1","   2.0","    2",1.9995629052232826,0.02090262278952747,2,"▁▁▁▁▁▁▁▇","F2.0","6"
+"r4048","Ayudó a algún familiar en su negocio o trabajó sin remuneración","haven_labelled","1. Sí,
+2. No",28796,0.4880711111111111,"   1","   2.0","    2",1.9965032417862607,0.05903099035996611,2,"▁▁▁▁▁▁▁▇","F2.0","6"
+"r4049","Realizó alguna otra actividad para obtener ingresos","haven_labelled","1. Sí,
+2. No",28796,0.4880711111111111,"   1","   2.0","    2",1.9987615647993007,0.0351702506984542,2,"▁▁▁▁▁▁▁▇","F2.0","6"
+"r405","Tiene algún empleo fijo al que próximamente volverá","haven_labelled","1. Sí,
+2. No",29117,0.4823644444444445,"   1","   2.0","    2",1.986658312755685,0.11473522474718496,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r405b","Tiene algún negocio, empresa o actividad propia a la que próximamente volverá","haven_labelled","1. Sí,
+2. No",29479,0.47592888888888885,"   1","   2.0","    2",1.9910724291210637,0.09406487054950688,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r406","Razón por la que no trabajó la semana anterior","haven_labelled","1. Vacaciones laborales,
+2. Incapacidad por enfermedad o accidente (con certificado médico cubierto por el ISSS),
+3. Permisos o licencias (estudios, enfermedad y/o autorizados por la empresa),
+3.1. Permisos o licencias por maternidad,
+4. Cambio de turno,
+5. Huelgas o paro laboral,
+6. Suspensión laboral,
+7. Término de temporada de trabajo,
+8. Falta de materia prima,
+9. Mal tiempo o fenómeno natural,
+10. Asuntos personales o familiares,
+11. Otro,
+12. No sabe,
+13. Por pandemia",55888,0.006435555555555528,"   1","   3.0","   12",4.673480662983425,3.9161521529711547,14,"▇▂▁▁▂▁▁▂","F2.1","6"
+"r406a","Recibió sueldo, salario o ganancia de negocio durante el período de ausencia","haven_labelled","1. Sí,
+2. No",56105,0.00257777777777779,"   1","   2.0","    2",1.910344827586207,0.286677358795523,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r406b","Tiempo en el que regresará al mismo trabajo","haven_labelled","1. Ya se incorporó o regresará en esa misma semana,
+2. En cuatro semanas o menos,
+3. En más de 4 semanas,
+4. No hay seguridad de que regrese o cuándo reinicie su actividad,
+5. No regresará,
+6. No sabe",56118,0.002346666666666719,"   1","   2.0","    6",2.257575757575758,1.5113878770281526,6,"▇▆▁▃▁▁▁▂","F1.0","6"
+"r406c","Desearía trabajar si se le presentara una oportunidad de empleo o empezar negocio","haven_labelled","1. Sí,
+2. No",29676,0.47242666666666666,"   1","   2.0","    2",1.9530368028900429,0.2115640318093851,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r407","Buscó trabajo o trató de establecer su propia empresa o negocio","haven_labelled","1. Sí,
+2. No",29676,0.47242666666666666,"   1","   2.0","    2",1.9735079400918192,0.16059639227792002,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r407_control","Buscó trabajo o trató de establecer su propia empresa o negocio","haven_labelled","1. Sí,
+2. No",55602,0.011519999999999975,"   1","   2.0","    2",1.8996913580246915,0.3006431495251835,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r407a_m","Tiempo en meses que ha estado buscando trabajo desde la ultima vez que trabajó/desidió trabajar","numeric",NA,55579,0.011928888888888878,"1.0e+00","4.0e+00","    24",6.904619970193741,6.597138194350774,NA,"▇▂▁▁▁","F2.0","6"
+"r407a_s","Tiempo en semanas que ha estado buscando trabajo desde la ultima vez que trabajó/desidió trabajar","numeric",NA,56217,5.866666666666243e-4,"1.0e+00","2.0e+00","     3",2.090909090909091,0.8790490729915326,NA,"▆▁▅▁▇","F1.0","6"
+"r408","Actividad que realizó para buscar trabajo o establecer su propia empresa o negocio en las ultimas 4 semanas","haven_labelled","1. Estableció contacto con oficinas de empleo,
+2. Gestionó directamente con empleadores,
+3. Gestionó en lugar de trabajo, fincas, granjas, etc.,
+4. Gestionó valiéndose de amigos(as) y familiares,
+5. Puso aviso o respondió ofertas aparecidas en periódicos o en sitios de internet,
+6. Buscó terreno, edificio, etc. para establecer su propia empresa o negocio,
+7. Gestionó para obtener recursos financieros y establecer su propia empresa o negocio,
+8. Otros,
+9. No hizo nada",55546,0.012515555555555502,"   1","   2.0","    8",2.6420454545454546,1.5577071519346675,9,"▇▃▁▆▃▁▁▁","F1.0","6"
+"r408otr","Otra actividad que realizó para buscar trabajo o establecer su propia empresa o negocio en las ultimas 4 semanas","numeric",NA,56249,1.777777777778322e-5,"1.0e+00","1.0e+00","     1",1,NA,NA,"▁▁▇▁▁","F2.0","6"
+"r409","Razón por la que no buscó trabajo","haven_labelled","1. Creía que no había trabajo disponible en la zona,
+2. No sabía cómo buscar trabajo,
+3. Se cansó de buscar trabajo,
+4. Espera ciclo agrícola de café,
+5. Espera ciclo agrícola de caña,
+6. Espera ciclo agrícola de algodón,
+7. Espera ciclo agrícola de otros cultivos,
+8. Asiste a un centro de educación formal o está de vacaciones escolares,
+9. Por obligaciones familiares o personales,
+10. Enfermedad o accidente,
+11. Inhabilitado(a) por hecho violento,
+12. Trabajo doméstico y cuidado,
+13. Jubilado(a) o pensionado(a),
+14. No puede trabajar (discapacitado(a), anciano(a), etc.),
+15. Asiste a un centro de formacion o capacitación,
+16. Otros,
+17. Ya encontró trabajo que empezará pronto,
+18. Espera respuesta del empleador(a),
+19. Sí buscó trabajo",30380,0.45991111111111116,"   1","   9.0","   18",10.114959412446849,2.585371075274918,19,"▁▁▁▇▁▅▂▁","F2.0","6"
+"r409otr","Otra razón por la que no buscó trabajo","numeric",NA,56089,0.0028622222222222105,"2.0e+00","6.0e+00","    22",6.881987577639752,5.10560829136399,NA,"▇▃▁▁▁","F2.0","6"
+"r409a","En cuanto tiempo más comenzará a trabajar","haven_labelled","1. Sí,
+2. No",56207,7.644444444444565e-4,"   1","   1.0","    2",1.2790697674418605,0.45385026875081025,2,"▇▁▁▁▁▁▁▃","F1.0","6"
+"r409b","Hubiera estado dispuesto(a) a trabajar en el mismo momento o a más tardar 2 semanas","haven_labelled","1. Sí, ahora,
+2. Sí, en dos semanas,
+3. Sí, en los próximos meses,
+4. Sí, mas adelante,
+5. No",54824,0.025351111111111102,"   1","   1.0","    5",1.7720897615708275,1.5339272318591128,5,"▇▁▁▁▁▁▁▂","F1.0","6"
+"r409b_control","Hubiera estado dispuesto(a) a trabajar en el mismo momento o a más tardar 2 semanas","haven_labelled","1. Sí, ahora,
+2. Sí, en dos semanas,
+3. Sí, en los próximos meses,
+4. Sí, mas adelante,
+5. No",55602,0.011519999999999975,"   1","   5.0","    5",4.146604938271605,1.577014440449154,5,"▂▁▁▁▁▁▁▇","F1.0","6"
+"r410","Ha trabajado antes","haven_labelled","1. Sí,
+2. No",43878,0.21994666666666662,"   1","   2.0","    2",1.8904784998383446,0.31230501860330556,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r411a","Horas (de lunes a viernes) que trabajó la semana anterior","numeric",NA,31321,0.44318222222222226,"1.0e+00","4.0e+01","    72",35.8932167355289,11.896954981294193,NA,"▁▂▇▃▁","F2.0","6"
+"r411b","Días (de lunes a viernes) que trabajó la semana anterior","haven_labelled","1. Un dia,
+2. Dos dias,
+3. Tres dias,
+4. Cuatro dias,
+5. Cinco dias",31321,0.44318222222222226,"   1","   5.0","    5",4.612058245416984,0.9160706663782037,5,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r411c","Jornada (de lunes a viernes) que trabajó la semana anterior","haven_labelled","1. De 7 a.m. a 6 p.m.,
+2. De 6 p.m. a 7 a.m.,
+3. Mixta",31321,0.44318222222222226,"   1","   1.0","    3",1.418669020016848,0.8106458165229272,3,"▇▁▁▁▁▁▁▂","F1.0","6"
+"r411d","Horas (sábado y domingo) que trabajó la semana anterior","numeric",NA,38786,0.31047111111111114,"1.0e+00","8.0e+00","    48",10.034585432890518,5.418240788450353,NA,"▇▃▁▁▁","F2.0","6"
+"r411e","Días (sábado y domingo) que trabajó la semana anterior","haven_labelled","1. Un dia,
+2. Dos dias",38786,0.31047111111111114,"   1","   1.0","    2",1.4070659642693542,0.49130142113756825,2,"▇▁▁▁▁▁▁▆","F1.0","6"
+"r411f","Jornada (sábado y domingo) que trabajó la semana anterior","haven_labelled","1. De 7 a.m. a 6 p.m.,
+2. De 6 p.m. a 7 a.m.,
+3. Mixta",38786,0.31047111111111114,"   1","   1.0","    3",1.4602611085661934,0.8380387526166682,3,"▇▁▁▁▁▁▁▂","F1.0","6"
+"r412a","Horas (de lunes a viernes) que trabaja habitualmente a la semana","numeric",NA,48655,0.13502222222222227,"1.0e+00","2.5e+01","    72",23.371165240289663,10.525704301312343,NA,"▅▇▆▁▁","F2.0","6"
+"r412b","Días (de lunes a viernes) que trabaja habitualmente a la semana","haven_labelled","1. Un dia,
+2. Dos dias,
+3. Tres dias,
+4. Cuatro dias,
+5. Cinco dias",48655,0.13502222222222227,"   1","   5.0","    5",4.1755102040816325,1.2620264177960232,5,"▁▁▁▂▁▁▁▇","F1.0","6"
+"r412c","Jornada (de lunes a viernes) que trabaja habitualmente a la semana","haven_labelled","1. De 7 a.m. a 6 p.m.,
+2. De 6 p.m. a 7 a.m.,
+3. Mixta",48655,0.13502222222222227,"   1","   1.0","    3",1.338643844634628,0.7462493374802556,3,"▇▁▁▁▁▁▁▂","F1.0","6"
+"r412d","Horas (sábado y domingo) que trabaja habitualmente a la semana","numeric",NA,51813,0.07887999999999995,"1.0e+00","6.0e+00","    36",7.618886635113816,4.181913300190538,NA,"▇▃▁▁▁","F2.0","6"
+"r412e","Días (sábado y domingo) que trabaja habitualmente a la semana","haven_labelled","1. Un dia,
+2. Dos dias",51813,0.07887999999999995,"   1","   1.0","    2",1.4230335812485915,0.49409633884912607,2,"▇▁▁▁▁▁▁▆","F1.0","6"
+"r412f","Jornada (sábado y domingo) que trabaja habitualmente a la semana","haven_labelled","1. De 7 a.m. a 6 p.m.,
+2. De 6 p.m. a 7 a.m.,
+3. Mixta",51813,0.07887999999999995,"   1","   1.0","    3",1.396213657876944,0.7909908051862324,3,"▇▁▁▁▁▁▁▂","F1.0","6"
+"r413","Razón por la que trabaja menos de 40 horas en la semana","haven_labelled","1. No desea trabajar más horas,
+2. Reducción de actividad o falta de trabajo,
+3. Sólo encontró trabajo a tiempo parcial,
+4. Jornada habitual de trabajo,
+5. Razones familiares,
+6. Tiene otro trabajo,
+7. Por estudios,
+8. Por enfermedad o accidente,
+9. Inhabilitado(a) por hecho violento,
+10. Por trabajo doméstico y cuidado,
+11. Otros",49216,0.12504888888888888,"   1","   4.0","   11",3.582598805800398,1.9652356856449125,11,"▇▂▇▁▁▁▁▁","F2.0","6"
+"r413otr","Otra razón por la que trabaja menos de 40 horas","numeric",NA,56248,3.555555555556644e-5,"1.0e+00","1.0e+00","     1",1,0,NA,"▁▁▇▁▁","F2.0","6"
+"r413a","Razón por la que trabaja 40 horas o más en la semana","haven_labelled","1. Jornada habitual de trabajo,
+2. Porque se lo exigen en el trabajo,
+3. Para ganar más,
+4. Porque es negocio propio y tiene que estar presente,
+5. Por temor a que lo despidan,
+6. Porque le gusta trabajar más horas,
+7. Otros",37425,0.33466666666666667,"   1","   1.0","    6",1.1811420982735723,0.6204436743176637,7,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r413a_otr","Otra razón por la que trabaja 40 horas o más en la semana","numeric",NA,56250,0,"     NA","     NA","    NA",NA,NA,NA," ","F2.0","6"
+"r414","Código de la ocupación (CIUO 08)","numeric",NA,30391,0.45971555555555554,"1.1e+02","6.1e+03","  9629",6363.763061216598,2232.5044344546895,NA,"▁▂▇▆▇","F4.0","6"
+"r416","Código de la actividad económica (CIIU Rev. 4)","numeric",NA,30391,0.45971555555555554,"1.1e+02","4.7e+03","  9900",4546.758575350942,3037.780218699027,NA,"▅▁▇▁▅","F4.0","6"
+"r414indicador","Indicador de actividad agropecuaria","haven_labelled","1. Trabajo agropecuario",30391,0.45971555555555554,"   0","   0.0","    1",0.0683321087435709,0.25231982418168375,1,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r417a01","En su empleo trabaja con herramientas peligrosas","haven_labelled","1. Sí,
+2. No",30391,0.45971555555555554,"   1","   2.0","    2",1.6192041455586064,0.4855918969093463,2,"▅▁▁▁▁▁▁▇","F1.0","6"
+"r417a02","En su empleo trabaja con químicos","haven_labelled","1. Sí,
+2. No",30391,0.45971555555555554,"   1","   2.0","    2",1.7950423450249429,0.40367848142742696,2,"▂▁▁▁▁▁▁▇","F1.0","6"
+"r417a03","En su empleo trabaja llevando cargas pesadas","haven_labelled","1. Sí,
+2. No",30391,0.45971555555555554,"   1","   2.0","    2",1.622761901078928,0.48470465338615293,2,"▅▁▁▁▁▁▁▇","F1.0","6"
+"r417a04","En su empleo trabaja en ambiente con gases, fuego","haven_labelled","1. Sí,
+2. No",30391,0.45971555555555554,"   1","   2.0","    2",1.8970571174446034,0.3038901392719955,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r417a05","En su empleo trabaja en ambiente con polvo, humo","haven_labelled","1. Sí,
+2. No",30391,0.45971555555555554,"   1","   2.0","    2",1.6700955180014696,0.4701872648688007,2,"▃▁▁▁▁▁▁▇","F1.0","6"
+"r417a06","En su empleo trabaja con explosivos","haven_labelled","1. Sí,
+2. No",30391,0.45971555555555554,"   1","   2.0","    2",1.9917243512896863,0.0905951419353406,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r417a07","En su empleo trabaja en alturas","haven_labelled","1. Sí,
+2. No",30391,0.45971555555555554,"   1","   2.0","    2",1.9560694535751575,0.2049445724982244,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r417a08","En su empleo trabaja bajo el agua, en altamar o en manglares","haven_labelled","1. Sí,
+2. No",30391,0.45971555555555554,"   1","   2.0","    2",1.9904481998530492,0.09726730759567928,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r417a09","En su empleo trabaja bajo tierra","haven_labelled","1. Sí,
+2. No",30391,0.45971555555555554,"   1","   2.0","    2",1.9975637108936928,0.049299569878021116,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r417a10","En su empleo trabaja con temperaturas o humedad extrema","haven_labelled","1. Sí,
+2. No",30391,0.45971555555555554,"   1","   2.0","    2",1.7103909663946788,0.4535896798018847,2,"▃▁▁▁▁▁▁▇","F1.0","6"
+"r417a11","En su empleo trabaja en ambiente bullicioso","haven_labelled","1. Sí,
+2. No",30391,0.45971555555555554,"   1","   2.0","    2",1.8301171739046367,0.37553708901668786,2,"▂▁▁▁▁▁▁▇","F1.0","6"
+"r417a12","En su empleo trabaja con luz insuficiente","haven_labelled","1. Sí,
+2. No",30391,0.45971555555555554,"   1","   2.0","    2",1.9870451293553502,0.11308199008384445,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r417a13","En su empleo trabaja con mota u otras partículas","haven_labelled","1. Sí,
+2. No",30391,0.45971555555555554,"   1","   2.0","    2",1.8853010557252794,0.3186644369989981,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r417a14","En su empleo trabaja con alguna otra dificultad","haven_labelled","1. Sí,
+2. No",30391,0.45971555555555554,"   1","   2.0","    2",1.9983758072624618,0.04026931146012216,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r417a14otr","Otra dificultad con la cual trabaja","numeric",NA,56208,7.466666666666733e-4,"1.0e+00","1.0e+00","     6",2.4047619047619047,1.781469985091427,NA,"▇▁▁▂▁","F2.0","6"
+"r417a15","En su empleo trabaja con riesgo de accidentes graves","haven_labelled","1. Sí,
+2. No",30391,0.45971555555555554,"   1","   2.0","    2",1.7409412583626591,0.4381263894690416,2,"▃▁▁▁▁▁▁▇","F1.0","6"
+"r417a16","En su empleo trabaja con agresiones verbales o amenazas","haven_labelled","1. Sí,
+2. No",30391,0.45971555555555554,"   1","   2.0","    2",1.965311883676863,0.18299220163820373,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r417a","Le proveen de medidas o equipo de seguridad","haven_labelled","1. Sí,
+2. No",39080,0.30524444444444443,"   1","   2.0","    2",1.6521258008153756,0.47630972480554307,2,"▅▁▁▁▁▁▁▇","F1.0","6"
+"r418","Categoría ocupacional","haven_labelled","1. Empleador(a) o patrono(a),
+2. Cuenta propia con local,
+3. Cuenta propia sin local,
+4. Cooperativista,
+5. Familiar no remunerado,
+6. Asalariado(a) permanente,
+7. Asalariado(a) temporal,
+8. Aprendiz,
+9. Servicio doméstico,
+10. Otros",30391,0.45971555555555554,"   1","   6.0","    9",5.129045980122974,1.999752223459122,10,"▂▅▁▁▇▃▁▁","F2.0","6"
+"r418tr","Otra categoría ocupacional","numeric",NA,56250,0,"     NA","     NA","    NA",NA,NA,NA," ","F2.0","6"
+"r418a","Razón principal por la que no trabaja como asalariado permanente","haven_labelled","1. No encuentra trabajo asalariado,
+2. Necesita flexibilidad con el tiempo,
+3. Tiene que cuidar hijos/familiares,
+4. Gana más así,
+5. No le gusta ser asalariado,
+6. Trabaja con la familia,
+7. No se lo permite alguien de la familia,
+8. Cuidado de la casa/bienes debido a la inseguridad,
+9. Otros",40576,0.27864888888888883,"   1","   1.0","    9",1.88879673344392,1.6364767230173258,9,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r418a_otr","Otra razón por la que no trabaja como asalariado permanente","numeric",NA,56053,0.0035022222222221844,"1.0e+00","2.0e+00","     4",1.6649746192893402,0.5434598387105605,NA,"▅▇▁▁▁","F2.0","6"
+"r418b","Quién decide su horario de trabajo","haven_labelled","1. 1.Usted,
+2. 2.Uds y su(s) socio(s),
+3. 3.Un familiar,
+4. 4.Su empleador,
+5. 5.Otra persona o empresa",47718,0.15168000000000004,"   1","   1.0","    3",1.0065635255508674,0.11439189189504252,5,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r418c","Quién decide los precios a cobrar","haven_labelled","1. Usted,
+2. Usted y sus socios,
+3. Su empleador,
+4. Su cliente principal,
+5. Su proveedor principal,
+6. Un miembro de la familia",47718,0.15168000000000004,"   1","   1.0","    6",1.006446319737459,0.17942635523144274,6,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r418d","Trabaja solo, con miembros de la familia, contrata empleados o trabaja para un patrón","haven_labelled","1. Solo,
+2. Con miembros de la familia,
+3. Contrata empleados,
+4. Trabaja para un patrón",47718,0.15168000000000004,"   1","   1.0","    3",1.46741678387248,0.7469660327767302,4,"▇▁▁▂▁▁▁▂","F1.0","6"
+"r419","Ha firmado contrato de trabajo","haven_labelled","1. Sí, duración indefinida,
+2. Sí, por un plazo fijo,
+3. Sí, contrato de prueba,
+4. Sí, para realizar un servicio,
+5. Sí, contrato para interinato,
+6. Sí, otro tipo de contrato,
+7. No,
+8. No sabe/No responde",40378,0.2821688888888889,"   1","   7.0","    8",4.839591733870968,2.673358652413282,8,"▂▃▁▁▁▁▇▁","F1.0","6"
+"r419a","Número de meses de duración del contrato","numeric",NA,49719,0.11610666666666669,"1.0e+00","1.2e+01","    12",11.853314959424285,1.065645899884216,NA,"▁▁▁▁▇","F2.0","6"
+"r420","Sector en el que trabaja","haven_labelled","1. Privado,
+2. Público,
+3. Organismo internacional,
+4. Otros",41633,0.25985777777777774,"   1","   1.0","    3",1.15557227885339,0.36826683210082084,4,"▇▁▁▂▁▁▁▁","F1.0","6"
+"r420_otr","Otro sector en el que trabaja","numeric",NA,56250,0,"     NA","     NA","    NA",NA,NA,NA," ","F2.0","6"
+"r421","Número de personas de la empresa o negocio en el que trabaja","numeric",NA,35556,0.3678933333333333,"0.0e+00","2.0e+00","   998",138.2508939789311,334.3960464228922,NA,"▇▁▁▁▁","F3.0","6"
+"r421a","Código (número por si no sabe con precisión) de personas de la empresa o negocio en el que trabaja","haven_labelled","1. 0-4,
+2. 5-10,
+3. 11-50,
+4. 51-100,
+5. 100 y más",52340,0.06951111111111108,"   1","   4.0","    5",3.6150895140664963,1.3171546306222277,5,"▁▃▁▅▁▃▁▇","F1.0","6"
+"r422a","Cobertura del ISSS","haven_labelled","1. Si, afiliado,
+2. Si, Cotizante,
+3. No",30391,0.45971555555555554,"   1","   3.0","    3",2.5860242082060405,0.6334389022976002,3,"▁▁▁▃▁▁▁▇","F1.0","6"
+"r422b","Cobertura de Bienestar Magisterial","haven_labelled","1. Si, afiliado,
+2. Si, Cotizante,
+3. No",30391,0.45971555555555554,"   1","   3.0","    3",2.9812444410069996,0.14556420511203988,3,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r422c","Cobertura del IPSFA","haven_labelled","1. Si, afiliado,
+2. Si, Cotizante,
+3. No",30391,0.45971555555555554,"   2","   3.0","    3",2.9931551877489464,0.08245134136051406,3,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r422d","Cobertura de seguro de salud colectivo","haven_labelled","1. Si, afiliado,
+2. Si, Cotizante,
+3. No",30391,0.45971555555555554,"   2","   3.0","    3",2.999265246142542,0.02709690735677808,3,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r422e","Cobertura de seguro de salud privado","haven_labelled","1. Si, afiliado,
+2. Si, Cotizante,
+3. No",30391,0.45971555555555554,"   2","   3.0","    3",2.9974863683823814,0.05007404755371683,3,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r422f","Cobertura de la AFP","haven_labelled","1. Si, afiliado,
+2. Si, Cotizante,
+3. No",30391,0.45971555555555554,"   1","   3.0","    3",2.579488766000232,0.6442736942812426,3,"▁▁▁▃▁▁▁▇","F1.0","6"
+"r422g","Cobertura del INPEP","haven_labelled","1. Si, afiliado,
+2. Si, Cotizante,
+3. No",30391,0.45971555555555554,"   1","   3.0","    3",2.9976023821493483,0.06151569573630799,3,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r423","Periodicidad con la que recibe el sueldo o salario","haven_labelled","1. Diaria,
+2. Semanal,
+3. Quincenal,
+4. Mensual,
+5. Por obra o destajo (promedio mensual),
+6. No recibe salario en efectivo",38923,0.3080355555555555,"   1","   3.0","    6",2.9836671091360305,1.3523012095057958,6,"▃▅▁▇▆▁▁▂","F1.0","6"
+"r424","Sueldo o salario bruto que recibió de acuerdo a la periodicidad","numeric",NA,40386,0.28202666666666665,"6.5e+00","3.7e+02","  2500",401.96534585644645,266.48491504043665,NA,"▇▂▁▁▁","F8.2","7"
+"r424a","Le deducen del salario el impuesto sobre la renta","haven_labelled","1. Sí,
+2. No,
+3. No sabe/No responde",40386,0.28202666666666665,"   1","   2.0","    3",1.8958648512355019,0.44773264720303063,3,"▂▁▁▇▁▁▁▁","F1.0","6"
+"r42501a","Monto que recibe por pago de horas extras","numeric",NA,39327,0.3008533333333333,"0.0e+00","0.0e+00","   400",2.2772203510015956,16.810721260536415,NA,"▇▁▁▁▁","F8.2","7"
+"r42501b","Veces al año que recibe pago de horas extras","numeric",NA,55711,0.00958222222222227,"1.0e+00","1.2e+01","    12",9.738404452690167,3.8013192358401366,NA,"▂▁▁▁▇","F3.0","6"
+"r42502a","Monto que recibe por salario vacacional","numeric",NA,40557,0.2789866666666667,"0.0e+00","0.0e+00","  1500",24.56460906136494,95.02875664908294,NA,"▇▁▁▁▁","F8.2","7"
+"r42502b","Veces al año que recibe salario vacacional","numeric",NA,54674,0.028017777777777808,"1.0e+00","1.0e+00","     1",1,0,NA,"▁▁▇▁▁","F3.0","6"
+"r42503a","Monto que recibe por aguinaldo","numeric",NA,41785,0.2571555555555556,"0.0e+00","0.0e+00","  2000",78.7929042516419,173.32722288319655,NA,"▇▁▁▁▁","F8.2","7"
+"r42503b","Veces al año que recibe aguinaldo","haven_labelled","1. Veces",52383,0.06874666666666662,"   1","   1.0","    1",1,0,1,"▁▁▁▇▁▁▁▁","F3.0","6"
+"r42504a","Monto que recibe por bonificaciones, comisiones, viáticos","numeric",NA,39410,0.29937777777777774,"0.0e+00","0.0e+00","  1500",12.426353919239904,76.15333833297088,NA,"▇▁▁▁▁","F8.2","7"
+"r42504b","Veces al año que recibe bonificaciones, comisiones, viáticos","numeric",NA,55404,0.015040000000000053,"1.0e+00","4.0e+00","    24",6.459810874704492,5.111320950368937,NA,"▇▁▅▁▁","F3.0","6"
+"r42505a","Alimentos o refrigerios","numeric",NA,39112,0.3046755555555556,"0.0e+00","0.0e+00","   300",10.954651067802544,34.35466503933057,NA,"▇▁▁▁▁","F8.2","7"
+"r42505b","Veces al año que recibe alimentos o refrigerios","numeric",NA,53852,0.042631111111111064,"1.0e+00","1.2e+01","    52",12.153878231859883,2.643639017702955,NA,"▁▇▁▁▁","F3.0","6"
+"r42506a","Monto que recibe por ropa, uniformes o calzado","numeric",NA,39335,0.30071111111111115,"0.0e+00","0.0e+00","   360",11.290806976056754,34.10936313118981,NA,"▇▁▁▁▁","F8.2","7"
+"r42506b","Veces al año que recibe ropa, uniformes o calzado","numeric",NA,53523,0.04847999999999997,"1.0e+00","1.0e+00","     2",1.115878254492116,0.32013757565189715,NA,"▇▁▁▁▁","F3.0","6"
+"r42507a","Monto que recibe por mercaderías (en especie)","numeric",NA,38942,0.30769777777777774,"0.0e+00","0.0e+00","   125",0.4252946614282413,4.601734871709153,NA,"▇▁▁▁▁","F8.2","7"
+"r42507b","Veces al año que recibe mercaderías (en especie)","numeric",NA,56010,0.004266666666666641,"2.0e+00","1.2e+01","    52",12.258333333333333,3.7427661516356916,NA,"▇▁▁▁▁","F3.0","6"
+"r42508a","Monto que recibe por vivienda","numeric",NA,38944,0.30766222222222217,"0.0e+00","0.0e+00","   300",0.9416387380099388,9.679388154689391,NA,"▇▁▁▁▁","F8.2","7"
+"r42508b","Veces al año que recibe vivienda","numeric",NA,56010,0.004266666666666641,"1.2e+01","1.2e+01","    12",12,0,NA,"▁▁▇▁▁","F3.0","6"
+"r42509a","Monto que recibe por transporte o combustible","numeric",NA,38971,0.30718222222222225,"0.0e+00","0.0e+00","   300",0.9252254181376237,8.95134736371795,NA,"▇▁▁▁▁","F8.2","7"
+"r42509b","Veces al año que recibe transporte o combustible","numeric",NA,55889,0.0064177777777777445,"1.2e+01","1.2e+01","    12",12,0,NA,"▁▁▇▁▁","F3.0","6"
+"r42510a","Monto que recibe por seguro privado de salud","numeric",NA,38940,0.3077333333333333,"0.0e+00","0.0e+00","    75",0.024032351242056615,1.2500159463280809,NA,"▇▁▁▁▁","F8.2","7"
+"r42510b","Veces al año que recibe seguro privado de salud","numeric",NA,56243,1.2444444444448255e-4,"1.2e+01","1.2e+01","    12",12,0,NA,"▁▁▇▁▁","F3.0","6"
+"r42511a","Monto que recibe por propinas","numeric",NA,38960,0.30737777777777775,"0.0e+00","0.0e+00","   150",0.24447657605552342,4.549059681129187,NA,"▇▁▁▁▁","F8.2","7"
+"r42511b","Veces al año que recibe propinas","numeric",NA,56168,0.00145777777777778,"1.2e+01","1.2e+01","    12",12,0,NA,"▁▁▇▁▁","F3.0","6"
+"r42512a","Monto que recibe por otro beneficio","numeric",NA,38936,0.30780444444444444,"0.0e+00","0.0e+00","    60",0.039967656231951025,1.3315489933769882,NA,"▇▁▁▁▁","F8.2","7"
+"r42512otr","Otro beneficio que recibe","numeric",NA,56219,5.511111111110578e-4,"1.0e+00","2.0e+00","     7",2.5483870967741935,1.6091138281140824,NA,"▇▅▁▁▁","F2.0","6"
+"r42512b","Veces al año que recibe otro beneficio","numeric",NA,56232,3.1999999999998696e-4,"1.2e+01","1.2e+01","    12",12,0,NA,"▁▁▇▁▁","F3.0","6"
+"r425a","Ha participado en algún curso en la empresa o institución en la que trabaja","haven_labelled","1. Sí,
+2. No,
+3. No sabe/No responde",41707,0.25854222222222223,"   1","   2.0","    3",1.8992642508423296,0.37301919227099295,3,"▁▁▁▇▁▁▁▁","F1.0","6"
+"r425b","La empresa o institucion en la que trabaja ha llevado a cabo una negociación colectiva en relación con los salarios u otras condiciones de trabajo","haven_labelled","1. Sí,
+2. No,
+3. No sabe/No responde",41707,0.25854222222222223,"   1","   2.0","    3",2.009007770061198,0.24117200854595777,3,"▁▁▁▇▁▁▁▁","F1.0","6"
+"r426","Lugar en el que realiza la actividad","haven_labelled","1. En el hogar del entrevistado,
+2. En otro lugar fijo,
+3. Se desplaza,
+4. En la calle como ambulante,
+5. En un medio de transporte,
+6. En puesto fijo en el mercado,
+7. En puesto fijo en la vía pública,
+8. En un local comercial o industrial,
+9. En el domicilio del empleador ó en el domicilio u oficina de clientes",30391,0.45971555555555554,"   1","   2.0","    9",2.8617889322866312,2.2520951619102716,9,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r426a","La empresa o institución lleva la contabilidad","haven_labelled","1. Sí con registros completos,
+2. Sólo de ingresos y gastos,
+3. No,
+4. No sabe/No responde",30391,0.45971555555555554,"   1","   3.0","    4",2.3375227193626977,0.9630842110206674,4,"▅▁▁▁▁▇▁▁","F1.0","6"
+"r426b1","La empresa o institución está registrada en las oficinas de impuestos","haven_labelled","1. Sí,
+2. No,
+3. No sabe/No responde",30391,0.45971555555555554,"   1","   2.0","    3",1.705441045670753,0.5401844391320266,3,"▅▁▁▇▁▁▁▁","F1.0","6"
+"r426b2","La empresa o institución está registrada en las oficinas de seguridad social","haven_labelled","1. Sí,
+2. No,
+3. No sabe/No responde",30391,0.45971555555555554,"   1","   2.0","    3",1.7258207974012916,0.50750685593046585,3,"▃▁▁▇▁▁▁▁","F1.0","6"
+"r427","Periodicidad con la que recibe el ingreso del negocio o establecimiento agropecuario","haven_labelled","1. Diaria,
+2. Semanal,
+3. Quincenal,
+4. Mensual,
+5. Bimensual,
+6. Trimestral,
+7. Semestral,
+8. Anual,
+9. Por obra o destajo (promedio mensual)",47718,0.15168000000000004,"   8","   9.0","    9",8.792897327707454,0.40525350606742494,9,"▂▁▁▁▁▁▁▇","F1.0","6"
+"r428","Ingreso bruto recibido en el tiempo establecido","numeric",NA,47718,0.15168000000000004,"6.0e+00","5.4e+02"," 14600",1056.9097163619315,1603.7846810275284,NA,"▇▁▁▁▁","F8.2","7"
+"r429","Costo total erogado en el tiempo establecido","numeric",NA,47718,0.15168000000000004,"2.0e+00","2.5e+02"," 11000",544.7166725269574,919.241182774528,NA,"▇▁▁▁▁","F8.2","7"
+"r430","Utiliza productos para consumo propio de los bienes producidos por el negocio","haven_labelled","1. Sí,
+2. No",47718,0.15168000000000004,"   1","   2.0","    2",1.5283638068448195,0.49922410302943715,2,"▇▁▁▁▁▁▁▇","F1.0","6"
+"r431","Monto de los productos del negocio utilizados para el consumo del hogar","numeric",NA,52450,0.06755555555555559,"5.0e+00","3.0e+01","  1120",56.609784210526314,89.23084185320573,NA,"▇▁▁▁▁","F8.2","7"
+"r431a","De lo que produce, destina una parte principalmente a la venta","haven_labelled","1. Si, más de la mitad de lo que produce,
+2. Sí, una parte, pero menos de la mitad de lo que se produce,
+3. No, todo lo que se produce es para consumo del hogar o la familia",54811,0.025582222222222173,"   1","   1.0","    3",1.6622654621264767,0.8050004598317037,3,"▇▁▁▃▁▁▁▃","F1.0","6"
+"r431b","Tipo de propiedad de la empresa o negocio donde trabaja","haven_labelled","1. Propietario individual,
+2. Sociedad con miembros del mismo hogar,
+3. Sociedad con miembros de dos o más hogares,
+4. Sociedad de capital,
+5. Otros",47718,0.15168000000000004,"   1","   1.0","    4",1.0242616033755274,0.20138363496799577,5,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r431b_otr","Otro tipo de propiedad de la empresa o negocio donde trabaja","numeric",NA,56250,0,"     NA","     NA","    NA",NA,NA,NA," ","F2.0","6"
+"r432","Tiene una ocupación secundaria","haven_labelled","1. Sí,
+2. No",30391,0.45971555555555554,"   1","   2.0","    2",1.931783905023396,0.2521212357292751,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r433","Horas de trabajo semanales que dedica al empleo secundario","numeric",NA,54486,0.031360000000000054,"0.0e+00","1.2e+01","    40",14.231292517006803,9.667989079904649,NA,"▇▇▅▂▁","F2.0","6"
+"r434","Ingreso recibido por el empleo secundario","numeric",NA,54994,0.022328888888888843,"2.0e+01","1.0e+02","  1150",152.18902070063695,165.08051735283135,NA,"▇▁▁▁▁","F8.2","7"
+"r43501a","Monto que recibe por pago de horas extras","numeric",NA,54486,0.031360000000000054,"0.0e+00","0.0e+00","   280",0.22108843537414966,6.915410442915868,NA,"▇▁▁▁▁","F8.2","7"
+"r43501b","Veces al año que recibe pago de horas extras","numeric",NA,56246,7.111111111113289e-5,"1.0e+00","6.5e+00","    12",6.5,6.3508529610858835,NA,"▇▁▁▁▇","F3.0","6"
+"r43502a","Monto que recibe por salario vacacional","numeric",NA,54487,0.03134222222222227,"0.0e+00","0.0e+00","     0",0,0,NA,"▁▁▇▁▁","F8.2","7"
+"r43502b","Veces al año que recibe salario vacacional","numeric",NA,56250,0,"     NA","     NA","    NA",NA,NA,NA," ","F3.0","6"
+"r43503a","Monto que recibe por aguinaldo","numeric",NA,54490,0.03128888888888892,"0.0e+00","0.0e+00","   385",0.6875,12.718094548197696,NA,"▇▁▁▁▁","F8.2","7"
+"r43503b","Veces al año que recibe aguinaldo","haven_labelled","1. Veces",56240,1.777777777778322e-4,"   1","   1.0","    1",1,0,1,"▁▁▁▇▁▁▁▁","F3.0","6"
+"r43504a","Monto que recibe por bonificaciones, comisiones, viáticos","numeric",NA,54486,0.031360000000000054,"0.0e+00","0.0e+00","   112",0.07199546485260772,2.6902753989218433,NA,"▇▁▁▁▁","F8.2","7"
+"r43504b","Veces al año que recibe bonificaciones, comisiones, viáticos","numeric",NA,56248,3.555555555556644e-5,"5.0e+00","8.5e+00","    12",8.5,4.949747468305833,NA,"▇▁▁▁▇","F3.0","6"
+"r43505a","Alimentos o refrigerios","numeric",NA,54488,0.03132444444444449,"0.0e+00","0.0e+00","   120",1.1118047673098752,8.489529057142175,NA,"▇▁▁▁▁","F8.2","7"
+"r43505b","Veces al año que recibe alimentos o refrigerios","numeric",NA,56196,9.599999999999609e-4,"1.0e+00","1.2e+01","    52",14.555555555555555,10.893423092245461,NA,"▁▇▁▁▁","F3.0","6"
+"r43506a","Monto que recibe por ropa, uniformes o calzado","numeric",NA,54487,0.03134222222222227,"0.0e+00","0.0e+00","    90",0.16846284741917186,3.068547791266284,NA,"▇▁▁▁▁","F8.2","7"
+"r43506b","Veces al año que recibe ropa, uniformes o calzado","numeric",NA,56240,1.777777777778322e-4,"1.0e+00","1.0e+00","     2",1.1,0.31622776601683794,NA,"▇▁▁▁▁","F3.0","6"
+"r43507a","Monto que recibe por mercaderías (en especie)","numeric",NA,54486,0.031360000000000054,"0.0e+00","0.0e+00","    75",0.053854875283446714,1.8478550344930902,NA,"▇▁▁▁▁","F8.2","7"
+"r43507b","Veces al año que recibe mercaderías (en especie)","numeric",NA,56248,3.555555555556644e-5,"1.2e+01","1.2e+01","    12",12,0,NA,"▁▁▇▁▁","F3.0","6"
+"r43508a","Monto que recibe por vivienda","numeric",NA,54486,0.031360000000000054,"0.0e+00","0.0e+00","    60",0.08503401360544217,2.088138026707406,NA,"▇▁▁▁▁","F8.2","7"
+"r43508b","Veces al año que recibe vivienda","numeric",NA,56247,5.3333333333349664e-5,"1.2e+01","1.2e+01","    12",12,0,NA,"▁▁▇▁▁","F3.0","6"
+"r43509a","Monto que recibe por transporte o combustible","numeric",NA,54486,0.031360000000000054,"0.0e+00","0.0e+00","    70",0.0782312925170068,2.075326253712704,NA,"▇▁▁▁▁","F8.2","7"
+"r43509b","Veces al año que recibe transporte o combustible","numeric",NA,56247,5.3333333333349664e-5,"1.2e+01","1.2e+01","    12",12,0,NA,"▁▁▇▁▁","F3.0","6"
+"r43510a","Monto que recibe por seguro privado de salud","numeric",NA,54486,0.031360000000000054,"0.0e+00","0.0e+00","     0",0,0,NA,"▁▁▇▁▁","F8.2","7"
+"r43510b","Veces al año que recibe seguro privado de salud","numeric",NA,56250,0,"     NA","     NA","    NA",NA,NA,NA," ","F3.0","6"
+"r43511a","Monto que recibe por propinas","numeric",NA,54486,0.031360000000000054,"0.0e+00","0.0e+00","    84",0.09863945578231292,2.374332964178323,NA,"▇▁▁▁▁","F8.2","7"
+"r43511b","Veces al año que recibe propinas","numeric",NA,56246,7.111111111113289e-5,"1.2e+01","1.2e+01","    12",12,0,NA,"▁▁▇▁▁","F3.0","6"
+"r43512a","Monto que recibe por otro beneficio","numeric",NA,54486,0.031360000000000054,"0.0e+00","0.0e+00","     0",0,0,NA,"▁▁▇▁▁","F8.2","7"
+"r43512b","Veces al año que recibe otro beneficio","numeric",NA,56250,0,"     NA","     NA","    NA",NA,NA,NA," ","F3.0","6"
+"r43512otr","Otro beneficio que recibe","numeric",NA,56250,0,"     NA","     NA","    NA",NA,NA,NA," ","F2.0","6"
+"r436","Código de la ocupación secundaria (CIUO 08)","numeric",NA,53131,0.05544888888888888,"1.1e+02","6.1e+03","  9629",6689.606284065406,2058.5945284329728,NA,"▁▂▆▇▇","F4.0","6"
+"r438","Código de la actividad económica secundaria (CIIU Rev. 4)","numeric",NA,53131,0.05544888888888888,"1.1e+02","4.1e+03","  9700",3625.6569413273487,3197.5287489499638,NA,"▇▁▇▁▃","F4.0","6"
+"r439","Número de personas de la empresa o negocio en el que trabaja por empleo secundario","numeric",NA,53369,0.051217777777777806,"0.0e+00","1.0e+00","   998",39.813606386671296,184.43525936798335,NA,"▇▁▁▁▁","F3.0","6"
+"r439_1","Código (número por si no sabe con precisión) de personas de la empresa o negocio en el que trabaja por empleo secundario","haven_labelled","1. 0-4,
+2. 5-10,
+3. 11-50,
+4. 51-100,
+5. 100 y más",56012,0.004231111111111074,"   1","   3.0","    5",3.0840336134453783,1.4873862438949126,5,"▆▆▁▆▁▃▁▇","F1.0","6"
+"r439_a","Desea trabajar mas horas por semana en su trabajo principal o negocio","haven_labelled","1. Sí,
+2. No",49631,0.11767111111111106,"   1","   2.0","    2",1.8454449312584982,0.3615073218776432,2,"▂▁▁▁▁▁▁▇","F1.0","6"
+"r439_b","Empezaría a trabajar ahora mismo o en las proximas dos semanas si se le presenta la oportunidad","haven_labelled","1. Sí, de inmediato,
+2. En los próximos quince días,
+3. En un mes más,
+4. No tiene disponibilidad",55227,0.018186666666666684,"   1","   1.0","    4",1.0928641251221896,0.400803874367277,4,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r439_c","Cuantas horas adicionales a la semana podría trabajar en su trabajo principal u otros trabajos","numeric",NA,55234,0.018062222222222202,"0.0e+00","2.0e+01","    50",19.911417322834644,10.74844598959251,NA,"▆▇▆▃▁","F2.0","6"
+"r44001a","Monto que recibe por ayuda de familiares o amigo(a)s que residen en el país","numeric",NA,8484,0.8491733333333333,"0.0e+00","0.0e+00","  1440",6.756910354645564,33.866293961851866,NA,"▇▁▁▁▁","F8.2","7"
+"r44001b","Veces al año que recibe ayuda de familiares o amigo(a)s que residen en el país","numeric",NA,52608,0.06474666666666662,"1.0e+00","1.2e+01","    24",11.502471169686984,2.681913634218993,NA,"▁▁▇▁▁","F2.0","6"
+"r44002a","Monto que recibe por cuota alimenticia","numeric",NA,8332,0.8518755555555555,"0.0e+00","0.0e+00","   700",0.5732083976793689,9.385494068141696,NA,"▇▁▁▁▁","F8.2","7"
+"r44002b","Veces al año que recibe cuota alimenticia","numeric",NA,55958,0.005191111111111146,"1.0e+00","1.2e+01","    24",11.571917808219178,2.085368539398092,NA,"▁▁▇▁▁","F2.0","6"
+"r44003a","Monto que recibe por alquiler de viviendas","numeric",NA,8330,0.8519111111111111,"0.0e+00","0.0e+00","  1000",0.6232888146911519,15.436495396653484,NA,"▇▁▁▁▁","F8.2","7"
+"r44003b","Veces al año que recibe alquiler de viviendas","numeric",NA,56087,0.002897777777777777,"5.0e+00","1.2e+01","    12",11.92638036809816,0.6339985026327778,NA,"▁▁▁▁▇","F2.0","6"
+"r44004a","Monto que recibe por alquiler de negocios o máquinas","numeric",NA,8324,0.8520177777777778,"0.0e+00","0.0e+00","  5663",0.3070149814297041,28.439293565399495,NA,"▇▁▁▁▁","F8.2","7"
+"r44004b","Veces al año que recibe alquiler de negocios o máquinas","numeric",NA,56222,4.977777777778192e-4,"5.0e+00","1.2e+01","    12",11.607142857142858,1.4991179064218054,NA,"▁▁▁▁▇","F2.0","6"
+"r44005a","Monto que recibe por alquiler de terrenos","numeric",NA,8322,0.8520533333333333,"0.0e+00","0.0e+00","   630",0.14370847938574527,6.838232478079963,NA,"▇▁▁▁▁","F8.2","7"
+"r44005b","Veces al año que recibe alquiler de terrenos","numeric",NA,56217,5.866666666666243e-4,"1.0e+00","1.2e+01","    12",7.787878787878788,5.348817484720196,NA,"▅▁▁▁▇","F2.0","6"
+"r44007a","Monto que recibe por depreciación de vehículos","numeric",NA,8321,0.8520711111111111,"0.0e+00","0.0e+00","  1000",0.04419036491476977,5.058063804229139,NA,"▇▁▁▁▁","F8.2","7"
+"r44007b","Veces al año que recibe depreciación de vehículos","numeric",NA,56241,1.60000000000049e-4,"1.2e+01","1.2e+01","    12",12,0,NA,"▁▁▇▁▁","F2.0","6"
+"r44008a","Monto que recibe por pensión por sobrevivencia","numeric",NA,8378,0.8510577777777778,"0.0e+00","0.0e+00","  1850",3.127444435160428,28.36604697000708,NA,"▇▁▁▁▁","F8.2","7"
+"r44008b","Veces al año que recibe pensión por sobrevivencia","numeric",NA,55343,0.016124444444444497,"1.0e+00","1.2e+01","    15",11.973539140022051,0.5411998559334567,NA,"▁▁▁▇▁","F2.0","6"
+"r44009a","Monto que recibe por ahorros","numeric",NA,8348,0.8515911111111111,"0.0e+00","0.0e+00","  1500",0.34374347626403906,14.663918259977613,NA,"▇▁▁▁▁","F8.2","7"
+"r44009b","Veces al año que recibe ahorros","numeric",NA,56192,0.0010311111111110938,"1.2e+01","1.2e+01","    12",12,0,NA,"▁▁▇▁▁","F2.0","6"
+"r44010a","Monto que recibe por otros ingresos","numeric",NA,8329,0.851928888888889,"0.0e+00","0.0e+00","   450",0.05897205817908641,3.9077673629597074,NA,"▇▁▁▁▁","F8.2","7"
+"r44010b","Veces al año que recibe otros ingresos","numeric",NA,56232,3.1999999999998696e-4,"3.0e+00","1.2e+01","    12",10.555555555555555,3.1101772641409178,NA,"▁▁▁▁▇","F2.0","6"
+"r44010otr","Otros","numeric",NA,56232,3.1999999999998696e-4,"1.0e+00","4.0e+00","     4",3.1666666666666665,1.200490095997562,NA,"▂▂▁▂▇","F2.0","6"
+"r44101","Monto que recibe por utilidades empresariales","numeric",NA,8327,0.8519644444444444,"0.0e+00","0.0e+00","  8000",0.3263568641362185,42.627805847409064,NA,"▇▁▁▁▁","F8.2","7"
+"r44102","Monto que recibe por dividendos por acciones","numeric",NA,8337,0.8517866666666667,"0.0e+00","0.0e+00","  4000",0.4197190741552396,32.16223116593598,NA,"▇▁▁▁▁","F8.2","7"
+"r44103","Monto que recibe por intereses","numeric",NA,8325,0.852,"0.0e+00","0.0e+00","  4800",0.12133541992696925,22.07470917428424,NA,"▇▁▁▁▁","F8.2","7"
+"r44104","Monto que recibe por herencias, loterías, juegos de azar","numeric",NA,8322,0.8520533333333333,"0.0e+00","0.0e+00","     0",0,0,NA,"▁▁▇▁▁","F8.2","7"
+"r44105","Monto que recibe por indemnización por retiro o despido","numeric",NA,8338,0.8517688888888889,"0.0e+00","0.0e+00"," 35000",4.970571046919352,302.4040429336784,NA,"▇▁▁▁▁","F8.2","7"
+"r44106","Monto que recibe por ayuda del gobierno en efectivo","numeric",NA,8324,0.8520177777777778,"0.0e+00","0.0e+00","  3000",1.4563285064474398,35.04385451235686,NA,"▇▁▁▁▁","F8.2","7"
+"r44107","Monto que recibe por actividades eventuales","numeric",NA,8333,0.8518577777777778,"0.0e+00","0.0e+00","  5000",0.6972681929169188,32.58316738470294,NA,"▇▁▁▁▁","F8.2","7"
+"r44108","Monto que recibe por arrendamiento de tierras","numeric",NA,8320,0.8520888888888889,"0.0e+00","0.0e+00","  2000",0.13590653035677028,12.290093401262164,NA,"▇▁▁▁▁","F8.2","7"
+"r44109","Monto que recibe por remesas eventuales del exterior","numeric",NA,8322,0.8520533333333333,"0.0e+00","0.0e+00","  1000",0.13733099649474212,8.240789760823471,NA,"▇▁▁▁▁","F8.2","7"
+"r44110","Monto que recibe por remesas eventuales locales","numeric",NA,8621,0.8467377777777778,"0.0e+00","0.0e+00","  2500",3.7286963824560666,38.21365663977494,NA,"▇▁▁▁▁","F8.2","7"
+"r44111","Monto que recibe por aguinaldo","numeric",NA,8320,0.8520888888888889,"0.0e+00","0.0e+00","  1000",0.14550385979553515,8.948074847847924,NA,"▇▁▁▁▁","F8.2","7"
+"r44111otr","Otros","numeric",NA,56228,3.9111111111111985e-4,"1.0e+00","3.0e+00","     9",3.1818181818181817,1.500360706990906,NA,"▂▇▁▁▁","F2.0","6"
+"r442a","Edad a la que empezó a trabajar","numeric",NA,29482,0.4758755555555556,"5.0e+00","1.5e+01","    50",15.343955469216976,5.067888950246857,NA,"▇▇▁▁▁","F2.0","6"
+"r443b1","Es miembro activo de una cooperativa","haven_labelled","1. Sí,
+2. No",29036,0.4838044444444445,"   1","   2.0","    2",1.9902991107518189,0.09801599368351328,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r443b2","Es miembro activo de un sindicato","haven_labelled","1. Sí,
+2. No",29036,0.4838044444444445,"   1","   2.0","    2",1.9964356581171456,0.059596710163580334,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r443b3","Es miembro activo de una asociación gremial","haven_labelled","1. Sí,
+2. No",29036,0.4838044444444445,"   1","   2.0","    2",1.9977217608583817,0.04767737719379918,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r443b4","Es miembro activo de una asociación profesional","haven_labelled","1. Sí,
+2. No",29036,0.4838044444444445,"   1","   2.0","    2",1.9977952524435951,0.046903810977000936,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r443b5","Es miembro activo de una asociación de empresas","haven_labelled","1. Sí,
+2. No",29036,0.4838044444444445,"   1","   2.0","    2",1.9998162710369662,0.013553669502237672,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r443b6","Es miembro activo de alguna otra organización","haven_labelled","1. Sí,
+2. No",29036,0.4838044444444445,"   1","   2.0","    2",1.9987506430513706,0.035324805856285744,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r443b6otr","Otra organización a la cual pertenece","numeric",NA,56216,6.044444444444075e-4,"1.0e+00","1.0e+00","     7",2.735294117647059,2.3652640768628106,NA,"▇▁▁▁▂","F2.0","6"
+"r444","Hay alguna época del año en que no se consigue trabajo","haven_labelled","1. Sí,
+2. No",29036,0.4838044444444445,"   1","   2.0","    2",1.8650694495480267,0.3416556545575148,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r445","Período en el cual no se consigue trabajo","haven_labelled","1. 1 a 14 días,
+2. 15 a 30 días,
+3. 1 a 2 meses,
+4. 3 a 4 meses,
+5. 5 a 6 meses,
+6. Más de 6 meses",52578,0.06528,"   1","   3.0","    6",3.0070806100217866,1.485773441589561,6,"▇▇▁▇▇▁▃▂","F1.0","6"
+"r446","Período en el cual ha pasado sin poder trabajar contra su voluntad","haven_labelled","1. Ninguno,
+2. 1 a 14 días,
+3. 15 a 30 días,
+4. 1 a 2 meses,
+5. 3 a 6 meses",29036,0.4838044444444445,"   1","   1.0","    5",1.36198280296906,0.9662497642124144,5,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r447fh1","Horas dedicadas a cuidar, atender sin pago a niños","numeric",NA,3817,0.9321422222222222,"0.0e+00","0.0e+00","    56",3.941773310701276,8.836293857860435,NA,"▇▁▁▁▁","F2.0","6"
+"r447fm1","Minutos dedicados a cuidar, atender sin pago a niños","numeric",NA,3817,0.9321422222222222,"0.0e+00","0.0e+00","    50",0.08694905879884805,1.6206124262506276,NA,"▇▁▁▁▁","F2.0","6"
+"r447fh2","Horas dedicadas a reparar o dar mantenimiento a la vivienda, muebles, aparatos domésticos o vehículos","numeric",NA,3817,0.9321422222222222,"0.0e+00","0.0e+00","    55",0.45599145576259226,2.222313381974378,NA,"▇▁▁▁▁","F2.0","6"
+"r447fm2","Minutos dedicados a reparar o dar mantenimiento a la vivienda, muebles, aparatos domésticos o vehículos","numeric",NA,3817,0.9321422222222222,"0.0e+00","0.0e+00","    40",0.02137966547784792,0.786930662716961,NA,"▇▁▁▁▁","F2.0","6"
+"r447fh3","Horas dedicadas a realizar el quehacer del hogar","numeric",NA,3817,0.9321422222222222,"0.0e+00","7.0e+00","    56",10.634218907939657,11.06993236595787,NA,"▇▃▁▁▁","F2.0","6"
+"r447fm3","Minutos dedicados a realizar el quehacer del hogar","numeric",NA,3817,0.9321422222222222,"0.0e+00","0.0e+00","    50",0.5019930196631892,3.870889990941149,NA,"▇▁▁▁▁","F2.0","6"
+"r447fh4","Horas dedicadas a acarrear leña","numeric",NA,3817,0.9321422222222222,"0.0e+00","0.0e+00","    42",0.19575458203802948,1.2058401568467043,NA,"▇▁▁▁▁","F2.0","6"
+"r447fm4","Minutos dedicados a acarrear leña","numeric",NA,3817,0.9321422222222222,"0.0e+00","0.0e+00","    50",0.03780062174584708,1.0641525469901194,NA,"▇▁▁▁▁","F2.0","6"
+"r447fh5","Horas dedicadas a acarrear agua","numeric",NA,3817,0.9321422222222222,"0.0e+00","0.0e+00","    50",0.09299486964316366,0.7973741643498434,NA,"▇▁▁▁▁","F2.0","6"
+"r447fm5","Minutos dedicados a acarrear agua","numeric",NA,3817,0.9321422222222222,"0.0e+00","0.0e+00","    50",0.07077603799134133,1.4941929995052976,NA,"▇▁▁▁▁","F2.0","6"
+"r447fh6","Horas dedicadas a cuidar animales domésticos o mascotas del hogar","numeric",NA,3817,0.9321422222222222,"0.0e+00","0.0e+00","    35",0.49741574962332885,1.7900773991062096,NA,"▇▁▁▁▁","F2.0","6"
+"r447fm6","Minutos dedicados a cuidar animales domésticos o mascotas del hogar","numeric",NA,3817,0.9321422222222222,"0.0e+00","0.0e+00","    50",0.35353689470371713,3.284454136086651,NA,"▇▁▁▁▁","F2.0","6"
+"r447fh7","Horas dedicadas a planificar las finanzas del hogar, pagar las cuentas","numeric",NA,3817,0.9321422222222222,"0.0e+00","0.0e+00","    30",0.31213167280147996,1.089065176449292,NA,"▇▁▁▁▁","F2.0","6"
+"r447fm7","Minutos dedicados a planificar las finanzas del hogar, pagar las cuentas","numeric",NA,3817,0.9321422222222222,"0.0e+00","0.0e+00","     0",0,0,NA,"▁▁▇▁▁","F2.0","6"
+"r44811","Desayunó fuera del hogar","haven_labelled","1. Sí,
+2. No",8320,0.8520888888888889,"   1","   2.0","    2",1.9344669309409555,0.24746669192126822,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r44821","Monto gastado en desayunos","numeric",NA,53209,0.054062222222222234,"0.0e+00","1.0e+01","    35",11.025665899375205,5.039093690590658,NA,"▃▇▂▁▁","F8.2","7"
+"r44812","Almorzó fuera del hogar","haven_labelled","1. Sí,
+2. No",8320,0.8520888888888889,"   1","   2.0","    2",1.8885875234717295,0.31464551824539466,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r44822","Monto gastado en almuerzos","numeric",NA,51049,0.09246222222222222,"0.0e+00","1.5e+01","    35",14.796014228033071,5.6941058505695015,NA,"▁▅▇▁▁","F8.2","7"
+"r44813","Cenó fuera del hogar","haven_labelled","1. Sí,
+2. No",8320,0.8520888888888889,"   1","   2.0","    2",1.9857083246401002,0.11869169009688423,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r44823","Monto gastado en cenas","numeric",NA,55592,0.011697777777777807,"0.0e+00","1.2e+01","    35",11.968768996960486,6.516293324844641,NA,"▃▇▃▁▁","F8.2","7"
+"r44814","Gastó en transporte","haven_labelled","1. Sí,
+2. No",8320,0.8520888888888889,"   1","   2.0","    2",1.8577091591904862,0.3493518338070223,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r44824","Monto gastado en transporte público","numeric",NA,49512,0.11978666666666671,"0.0e+00","6.0e+00","   150",8.307361234787772,8.087896199712532,NA,"▇▁▁▁▁","F8.2","7"
+"r44815","Gastó en combustible","haven_labelled","1. Sí,
+2. No",8320,0.8520888888888889,"   1","   2.0","    2",1.9302107239724597,0.25479420608835096,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r44825","Monto gastado en combustible","numeric",NA,53011,0.0575822222222222,"0.0e+00","1.5e+01","   150",20.165779561593084,18.46135320276917,NA,"▇▁▁▁▁","F8.2","7"
+"r44816","Gastó en reparación de vehículo","haven_labelled","1. Sí,
+2. No",8320,0.8520888888888889,"   1","   2.0","    2",1.9931984143542667,0.08219163596641493,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r44826","Monto gastado en reparación de vehículo","numeric",NA,55943,0.005457777777777784,"0.0e+00","6.0e+01","   500",98.10749185667753,103.14865617392232,NA,"▇▂▁▁▁","F8.2","7"
+"r44817","Gastó en hospedaje","haven_labelled","1. Sí,
+2. No",8320,0.8520888888888889,"   1","   2.0","    2",1.999061130815773,0.030626904499807518,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r44827","Monto gastado en hospedaje","numeric",NA,56209,7.2888888888889e-4,"0.0e+00","3.0e+01","   150",42.19512195121951,38.03286047104209,NA,"▇▂▂▁▁","F8.2","7"
+"r44818","Otros gastos","haven_labelled","1. Sí,
+2. No",8320,0.8520888888888889,"   1","   2.0","    2",1.999916544961402,0.009135087023743643,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r44828","Monto gastado en otros gastos","numeric",NA,56246,7.111111111113289e-5,"2.0e+00","3.0e+00","    12",5,4.69041575982343,NA,"▇▁▁▁▂","F8.2","7"
+"r449","Ha realizado actividades agropecuarias como patrono o cuenta propia","haven_labelled","1. Sí,
+2. No realizó actividades agropecuarias,
+3. Solo con producción de patio,
+4. No",8319,0.8521066666666667,"   1","   4.0","    4",3.6642465210406625,0.857140930693458,4,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r449a","Ingreso bruto de la producción agropecuaria","numeric",NA,53807,0.04343111111111109,"6.0e+00","4.8e+02"," 14000",774.5546663937781,1118.0754126648767,NA,"▇▁▁▁▁","F8.2","7"
+"r449b","Costo total de la producción agropecuaria","numeric",NA,53807,0.04343111111111109,"2.0e+00","2.0e+02","  9800",332.43729840360214,538.9739626405825,NA,"▇▁▁▁▁","F8.2","7"
+"r450_a","Forma de tenencia de la tierra","haven_labelled","1. Propietario(a),
+2. Arrendatario(a),
+3. Colono(a),
+4. Cooperativista,
+5. Aparcero(a) (censo),
+6. Ocupante gratuito,
+7. No utilizó tierra,
+8. Otra forma",52040,0.07484444444444449,"   1","   2.0","    7",2.871971496437055,2.0091258083551913,8,"▅▇▁▁▁▁▅▁","F1.0","6"
+"r450_b","Forma secundaria de tenencia de la tierra","haven_labelled","1. Propietario(a),
+2. Arrendatario(a),
+3. Colono(a),
+4. Cooperativista,
+5. Aparcero(a) (censo),
+6. Ocupante gratuito,
+7. No utilizó tierra,
+8. Otra forma",56172,0.0013866666666666472,"   2","   4.5","    7",4.012820512820513,2.01612712019073,8,"▇▁▁▁▁▁▆▁","F1.0","6"
+"r450_trh","Número de orden del propietario de la tierra","numeric",NA,55127,0.01996444444444445,"1.0e+00","1.0e+00","     7",1.2707034728406055,0.6792743744672641,NA,"▇▁▁▁▁","F2.0","6"
+"r450_otr","Otra forma de tenencia de la tierra","numeric",NA,56250,0,"     NA","     NA","    NA",NA,NA,NA," ","F2.0","6"
+"r451","Tipo de actividad agropecuaria a la que se dedicó","haven_labelled","1. Agrícola,
+2. Forestal,
+3. Pecuaria,
+4. Agrícola-forestal,
+5. Agrícola-pecuaria,
+6. Forestal-pecuaria,
+7. Agrícola-forestal-pecuaria,
+8. Piscícola,
+9. Apicultura,
+10. No especificada",52040,0.07484444444444449,"   1","   1.0","   10",1.5586698337292162,1.3933972315433336,10,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r452a","Solicitó crédito para la actividad agropecuaria","haven_labelled","1. Sí,
+2. No",52040,0.07484444444444449,"   1","   2.0","    2",1.9294536817102137,0.2560959071858475,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r452b","Obtuvo el crédito solicitado","haven_labelled","1. Sí,
+2. No,
+3. En trámite",55953,0.005279999999999951,"   1","   1.0","    2",1.1043771043771045,0.3062651527652857,3,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r453a","Destina en el patio de su vivienda espacio físico para cultivo de: granos, frutas o crianza de animales","haven_labelled","1. Sí,
+2. No",48393,0.13968000000000003,"   1","   1.0","    2",1.2406771032200585,0.4275218098393916,2,"▇▁▁▁▁▁▁▂","F1.0","6"
+"r453b","Destina de la producción de patio un monto para autoconsumo","haven_labelled","1. Sí,
+2. No",50284,0.10606222222222217,"   1","   1.0","    2",1.0680522963459604,0.2518567321438108,2,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r453b1","Monto destinado para autoconsumo","numeric",NA,50756,0.09767111111111115,"5.0e+00","3.5e+01","  1200",51.594790680742626,60.60468346725876,NA,"▇▁▁▁▁","F8.2","6"
+"r453c","Destina de la producción de patio un monto para Comercializacíon","haven_labelled","1. Sí,
+2. No",50284,0.10606222222222217,"   1","   2.0","    2",1.9446865571572243,0.2286102052878602,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r453c1","Monto destinado para comercializacíon","numeric",NA,55920,0.005866666666666687,"5.0e+00","4.0e+01","  2000",75.84848484848484,144.72759155591498,NA,"▇▁▁▁▁","F8.2","6"
+"r453d","Destina de la producción de patio un monto para ambas cosas (consumo y comercializacíon)","haven_labelled","1. Sí,
+2. No",50284,0.10606222222222217,"   1","   2.0","    2",1.9249078109285953,0.2635621287113632,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r453d1","Monto destinada para ambas cosas (consumo y comercializacíon)","numeric",NA,55804,0.007928888888888874,"8.0e+00","7.6e+01","  1500",121.95571748878923,168.9067969037083,NA,"▇▁▁▁▁","F8.2","6"
+"r454_a1","Recibe ayuda económica de parte de familiares y amigos en divisas","haven_labelled","1. Sí,
+2. No",38500,0.3155555555555556,"   1","   2.0","    2",1.712056338028169,0.45281747013299606,2,"▃▁▁▁▁▁▁▇","F1.0","6"
+"r454_a2","Monto de la ayuda en divisas","numeric",NA,51443,0.08545777777777774,"2.0e+01","2.0e+02","  6000",215.05913043478262,217.4509857814042,NA,"▇▁▁▁▁","F8.2","7"
+"r454_a3","Frecuencia con que recibe la ayuda en divisas","haven_labelled","1. Anual,
+2. Semestral (2 veces al año),
+3. Trimestral (4 veces al año),
+4. Bimensual (6 veces al año),
+5. Mensual,
+6. Quincenal,
+7. Otros",51139,0.09086222222222218,"   1","   5.0","    6",4.634122480923498,0.9766159311479637,7,"▁▁▁▁▁▁▇▁","F2.0","6"
+"r454_a3_otr","Otro frecuencia con que recibe la ayuda en divisas","numeric",NA,56250,0,"     NA","     NA","    NA",NA,NA,NA," ","F2.0","6"
+"r454_b1","Recibe ayuda económica de parte de familiares y amigos en especie","haven_labelled","1. Sí,
+2. No",38500,0.3155555555555556,"   1","   2.0","    2",1.9672676056338028,0.17794035108203823,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r454_b2","Monto de la ayuda en especie","numeric",NA,55669,0.010328888888888943,"1.2e+01","2.0e+02","  3000",361.26506024096386,404.2980745319125,NA,"▇▂▁▁▁","F8.2","7"
+"r454_c1","Recibe ayuda económica de parte de familiares y amigos de manera eventual","haven_labelled","1. Sí,
+2. No",38500,0.3155555555555556,"   1","   2.0","    2",1.968450704225352,0.17480177103324193,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r454_c2","Monto de la ayuda eventual","numeric",NA,55690,0.009955555555555606,"2.0e+01","2.0e+02","  9500",485.2625,740.0744902948297,NA,"▇▁▁▁▁","F8.2","7"
+"r501","Tipo de seguro médico","haven_labelled","1. ISSS cotizante,
+2. ISSS beneficiario(a),
+3. ISSS retirado(a),
+4. Bienestar Magisterial,
+5. Hospital Militar,
+6. Colectivo,
+7. Individual (privado),
+8. No tiene,
+9. Otros",0,1,"   1","   8.0","    9",6.515395555555556,2.7062084702917177,9,"▂▁▁▁▁▁▇▁","F1.0","6"
+"r501otr","Otro tipo de seguro médico","numeric",NA,56240,1.777777777778322e-4,"1.0e+00","1.0e+00","     1",1,0,NA,"▁▁▇▁▁","F2.0","6"
+"r502","Síntoma, enfermedad o lesión más reciente que tuvo el mes anterior","haven_labelled","1. Dolor de cabeza,
+2. Dolor de estómago y/o vómito,
+3. Temperatura, fiebre y/o calentura,
+4. Mareos/Vértigo,
+5. Otros,
+6. Enfermedad,
+7. Lesión por accidente,
+8. Lesión por hecho violento,
+9. Diarrea,
+10. No tuvo",0,1,"   1","  10.0","   10",8.925475555555556,2.2890302000362825,10,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r502otr","Otro síntoma, enfermedad o lesión más reciente que tuvo el mes anterior","numeric",NA,56167,0.0014755555555555633,"1.0e+00","4.0e+00","    11",4.578313253012048,2.7986080247661747,NA,"▇▂▃▂▁","F2.0","6"
+"r503","Persona a la que consultó","haven_labelled","1. Doctor(a),
+2. Enfermero(a),
+3. Promotor(a) de salud,
+4. Farmacéutico(a),
+5. Curandero(a),
+6. Familiar o amigo(a),
+7. No consultó con nadie",45014,0.1997511111111111,"   1","   1.0","    7",3.1550373798504805,2.819348321212551,7,"▇▁▁▁▁▁▁▅","F1.0","6"
+"r504","Lugar en el que consultó","haven_labelled","1. Hospital MINSAL,
+2. Unidad de salud o eco familiar del MINSAL,
+3. Hospital del ISSS,
+4. Unidades médicas, clínicas comunales o empresariales del ISSS,
+5. Hospital Militar,
+6. Bienestar Magisterial,
+7. Hospital o clínica particular,
+8. ONGs,
+9. Farmacia,
+10. Casa del curandero(a) o clínica natural,
+11. Casa del enfermo(a) o lesionado(a),
+12. Otros",48880,0.13102222222222226,"   1","   2.0","   12",3.805427408412483,2.5298055770733097,12,"▇▁▂▁▃▁▁▁","F1.0","6"
+"r504otr","Otro lugar en el que consultó","numeric",NA,56249,1.777777777778322e-5,"1.0e+00","1.0e+00","     1",1,NA,NA,"▁▁▇▁▁","F2.0","6"
+"r505","505. Estuvo  hospitalizado","haven_labelled","1. 1.Si,
+2. 2.No",48880,0.13102222222222226,"   1","   2.0","    2",1.9421981004070556,0.2333842979501969,2,"▁▁▁▁▁▁▁▇","F1.0","12"
+"r506","Estuvo hospitalizado","haven_labelled","1. Sí,
+2. No",55824,0.007573333333333321,"   1","   1.0","    4",1.647887323943662,1.0815926150456523,2,"▇▁▂▁▁▁▁▂","F1.0","6"
+"r506otr","506.Otros","numeric",NA,56250,0,"     NA","     NA","    NA",NA,NA,NA," ","F2.0","12"
+"r507","Lugar en el que estuvo hospitalizado","haven_labelled","1. Hospital MINSAL,
+2. Hospital del ISSS y unidades médicas,
+3. Hospital Militar,
+4. Hospital o clínica particular,
+5. Otros",55824,0.007573333333333321,"   1","   3.0","   90",6.206572769953052,8.611049207950845,5,"▇▁▁▁▁▁▁▁","F2.0","6"
+"r508","Días que estuvo hospitalizado","haven_labelled","1. 1.No hay medicinas,
+2. 2.Falta de atención,
+3. 3.Muy caro,
+4. 4.No existe servicio de salud cercano, el lugar de consulta es lejos,
+5. 5.No hay personal capacitado,
+6. 6.No fue necesario,
+7. 7.Gravedad del enfermo(a),
+8. 8.Prefiere curarse con remedios caseros,
+9. 9.No le dieron permiso,
+10. 10.Tuvo que trabajar,
+11. 11.Mala atención,
+12. 12.No habia quien lo llevara,
+13. 13.Prefiere ir a servicios privados,
+14. 14.Otros",50214,0.10730666666666666,"   1","   6.0","   14",5.157057654075547,3.0119097851845655,14,"▆▁▁▇▁▁▁▁","F1.0","6"
+"r508otr","508.Otros Cobertura","numeric",NA,56238,2.1333333333328763e-4,"1.0e+00","3.0e+00","     4",2.9166666666666665,0.7929614610987591,NA,"▁▁▁▇▂","F2.0","1"
+"r509","509.Si algún miembro del hogar se enfermara y necesitara atención médica,","haven_labelled","1. 1.Hospital MINSAL,
+2. 2.Unidad de Salud o eco familiar de MINSAL,
+3. 3..Hospital ISSS,
+4. 4.Unidades medicas ,clinicas comunales o empresariales ISSS,
+5. 5.Hospital Militar,
+6. 6.Bienestar  Magisterial,
+7. 7.Hospital o clinica particular,
+8. 8.ONG´S,
+9. 9.Farmacia,
+10. 10.Casa del curandero,clinica natural,
+11. 11.Casa de enfermo o lesionado,
+12. 12.Otros",23292,0.58592,"   1","   2.0","   12",2.9267249226288,1.9627415267169934,12,"▇▁▁▁▂▁▁▁","F1.0","12"
+"r509_otr","Otros","numeric",NA,56216,6.044444444444075e-4,"1.0e+00","1.0e+00","     2",1.2352941176470589,0.43056154520204615,NA,"▇▁▁▁▂","F2.0","1"
+"r510","510.¿Por qué no asistiría a un centro nacional o del isss?","haven_labelled","1. 1.No hay medicinas,
+2. 2.No lo atienden,
+3. 3.Muy caro,
+4. 4.No existe servicio de salud cercana,
+5. 5.No hay  personal capacitado,
+6. 6.Porque  dan mejor servicio en otro centro de salud privado,
+7. 7.Mucho tiempo de espera,
+8. 8.Prefiere cursarse con remedios caseros,
+9. 9.Porque no me darian  permiso en el trabajo,
+10. 10.Porque no puedo dejar de trabajar,
+11. 11.Mala atención,
+12. 12.Otros",51750,0.07999999999999996,"   1","   2.0","   12",4.182888888888889,3.2776422889163803,12,"▇▁▁▂▂▁▁▂","F1.0","12"
+"r510_otr","Otros","numeric",NA,56225,4.444444444444695e-4,"1.0e+00","1.0e+00","     4",1.52,0.9626352718795768,NA,"▇▁▁▂▁","F2.0","1"
+"r601","601.Alguna vez se preocupo que los alimento se acabaran","haven_labelled","1. 1.Si,
+2. 2.No",0,1,"   1","   2.0","    2",1.5973511111111112,0.49043555866357097,2,"▆▁▁▁▁▁▁▇","F1.0","6"
+"r602","602.Alguna vez se preocupo de quedaran sin alimento","haven_labelled","1. 1.Si,
+2. 2.No",0,1,"   1","   2.0","    2",1.8344711111111112,0.371660505708866,2,"▂▁▁▁▁▁▁▇","F1.0","6"
+"r603","603.Alguna vez dejaron  de tener alimentacion saludables","haven_labelled","1. 1.Si,
+2. 2.No",0,1,"   1","   2.0","    2",1.69616,0.4599184871743126,2,"▃▁▁▁▁▁▁▇","F1.0","6"
+"r604","604.Alguna vez tubo alimentacion basada en poca variedad de alimentos","haven_labelled","1. 1.Si,
+2. 2.No",0,1,"   1","   2.0","    2",1.644551111111111,0.47865337074579245,2,"▅▁▁▁▁▁▁▇","F1.0","6"
+"r605","605.Alguna vez dejo  de desayunar,almorzar o cenar","haven_labelled","1. 1.Si,
+2. 2.No",0,1,"   1","   2.0","    2",1.9174933333333333,0.2751375336295945,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r606","606.Alguna vez en su hogar comio menos","haven_labelled","1. 1.Si,
+2. 2.No",0,1,"   1","   2.0","    2",1.8538488888888889,0.35326078522468807,2,"▂▁▁▁▁▁▁▇","F1.0","6"
+"r607","607.Alguna vez sintio hambres pero no comio","haven_labelled","1. 1.Si,
+2. 2.No",0,1,"   1","   2.0","    2",1.9128177777777777,0.28210440825637206,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r608","608.Alguna vez solo comio una vez al dia o dejo de comer todo el dia","haven_labelled","1. 1.Si,
+2. 2.No",0,1,"   1","   2.0","    2",1.9474844444444444,0.2230662605075189,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r609","609.Alguna vez algun menor de  18 años dejó  de tener alimentacion saludables","haven_labelled","1. 1.Si,
+2. 2.No",18289,0.6748622222222223,"   1","   2.0","    2",1.8056162904033086,0.39573072713725416,2,"▂▁▁▁▁▁▁▇","F1.0","6"
+"r610","610.Alguna vez algun menor de  18 años tuvo una alimenacion basada en poca variedad de alimentos","haven_labelled","1. 1.Si,
+2. 2.No",18289,0.6748622222222223,"   1","   2.0","    2",1.7693685624720108,0.4212425096794913,2,"▂▁▁▁▁▁▁▇","F1.0","6"
+"r611","611.Alguna vez algun menor de  18 años vez dejo  de desayunar,almorzar o cenar","haven_labelled","1. 1.Si,
+2. 2.No",18289,0.6748622222222223,"   1","   2.0","    2",1.9676510102473592,0.17692754797798602,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r612","612.Alguna vez algun menor de  18 años  comio menos de lo deberia","haven_labelled","1. 1.Si,
+2. 2.No",18289,0.6748622222222223,"   1","   2.0","    2",1.920655409499223,0.27027939401199946,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r613","613.Alguna vez algun menor de  18 años tuvieron que disminuir la cantidad de comida","haven_labelled","1. 1.Si,
+2. 2.No",18289,0.6748622222222223,"   1","   2.0","    2",1.9334316798819842,0.2492761837428428,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r614","614.Alguna vez algun menor de  18 años sintio hambres pero no comio","haven_labelled","1. 1.Si,
+2. 2.No",18289,0.6748622222222223,"   1","   2.0","    2",1.9723663760174917,0.16392289241789829,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r615","615.Alguna vez algun menor de  18 años  comio una vez al dia o dejo de comer todo el dia","haven_labelled","1. 1.Si,
+2. 2.No",18289,0.6748622222222223,"   1","   2.0","    2",1.9807960801875608,0.13724294320609623,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"contro616","Pregunta de contro","haven_labelled","1. 1.Hogar con sección de esparcimiento y seguridad,
+8. 8.Sin sección de esparcimiento y seguridad por ser una zona de riesgo,
+9. 9.Sin sección de esparcimiento y seguridad por rechazo del informante",0,1,"   1","   1.0","    9",1.0206222222222223,0.3931916766818123,3,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r616_01","616.1.Espacios recreativos -cancha  deportiva","haven_labelled","1. 1.Si,
+2. 2.No",155,0.9972444444444445,"   1","   1.0","    2",1.3607629913539532,0.4802261619410703,2,"▇▁▁▁▁▁▁▅","F1.0","6"
+"r616_02","616.2.Espacios recreativos -zona verde o parque","haven_labelled","1. 1.Si,
+2. 2.No",155,0.9972444444444445,"   1","   2.0","    2",1.7421160531241644,0.4374736890253018,2,"▃▁▁▁▁▁▁▇","F1.0","6"
+"r616_03","616.3.Espacios recreativos -area de juegos para niños","haven_labelled","1. 1.Si,
+2. 2.No",155,0.9972444444444445,"   1","   2.0","    2",1.8055263392459222,0.39579849510319737,2,"▂▁▁▁▁▁▁▇","F1.0","6"
+"r616_04","616.4.Espacios recreativos -casa conunal","haven_labelled","1. 1.Si,
+2. 2.No",155,0.9972444444444445,"   1","   2.0","    2",1.7252161511721187,0.4464092716533494,2,"▃▁▁▁▁▁▁▇","F1.0","6"
+"r616_05","616.5.Espacios recreativos -otros","haven_labelled","1. 1.Si,
+2. 2.No",155,0.9972444444444445,"   1","   2.0","    2",1.992191817452536,0.08801904875685684,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r616_05otr","Razon para no usarlos -otros  especifique","numeric",NA,55812,0.0077866666666667195,"1.0e+00","1.0e+00","     1",1,0,NA,"▁▁▇▁▁","F2.0","6"
+"r617_01","617.1.Usados por algun miebro de hogar -cancha  deportiva","haven_labelled","1. 1.Si,
+2. 2.No",20392,0.6374755555555556,"   1","   1.0","    2",1.3834848569356908,0.48624151917247477,2,"▇▁▁▁▁▁▁▅","F1.0","6"
+"r617_02","617.2.Usados por algun miebro de hogar  -zona verde o parque","haven_labelled","1. 1.Si,
+2. 2.No",41784,0.25717333333333336,"   1","   1.0","    2",1.287709111018941,0.45271044380957975,2,"▇▁▁▁▁▁▁▃","F1.0","6"
+"r617_03","617.3.Usados por algun miebro de hogar  -area de juegos para niños","haven_labelled","1. 1.Si,
+2. 2.No",45341,0.19393777777777776,"   1","   1.0","    2",1.3937116142634522,0.48859457869887046,2,"▇▁▁▁▁▁▁▅","F1.0","6"
+"r617_04","617.4.Usados por algun miebro de hogar  -area de juegos para niños","haven_labelled","1. 1.Si,
+2. 2.No",40836,0.27402666666666664,"   1","   1.0","    2",1.4041131438951602,0.49073550347625305,2,"▇▁▁▁▁▁▁▆","F1.0","6"
+"r617_05","617.5.Usados por algun miebro de hogar -otros","haven_labelled","1. 1.Si,
+2. 2.No",55812,0.0077866666666667195,"   1","   1.0","    2",1.2374429223744292,0.42600248189847423,2,"▇▁▁▁▁▁▁▂","F1.0","6"
+"r618_01","618.1.Razon para no usarlos -cancha  deportiva","haven_labelled","1. 1.Estan muy congestionados,
+2. 2.No son  agradables,
+3. 3.No dan ganas de ir,
+4. 4.Por falta de tiempo,
+5. 5.No le dan permiso de usarlo,
+6. 6.Estan muy lejos,
+7. 7. No hay actividades que pueda realizar/No son accesibles,
+8. 8.Otra",42499,0.24446222222222225,"   1","   4.0","    8",4.435313795360337,1.741811212418593,8,"▁▂▇▆▁▁▆▁","F1.0","6"
+"r618_02","618.2.Razon para no usarlos -zona verde o parque","haven_labelled","1. 1.Estan muy congestionados,
+2. 2.No son  agradables,
+3. 3.No dan ganas de ir,
+4. 4.Por falta de tiempo,
+5. 5.No le dan permiso de usarlo,
+6. 6.Estan muy lejos,
+7. 7.No hay actividades que  puedan realizar / No son accesibles,
+8. 8.Otra",52088,0.07399111111111112,"   1","   4.0","    8",4.255646323882749,1.715249073077658,8,"▁▂▇▆▁▁▅▁","F1.0","6"
+"r618_03","618.3.Razon para no usarlos -area de juegos para niños","haven_labelled","1. 1.Estan muy congestionados,
+2. 2.No son  agradables,
+3. 3.No dan ganas de ir,
+4. 4.Por falta de tiempo,
+5. 5.No le dan permiso de usarlo,
+6. 6.Estan muy lejos,
+7. 7.No hay actividades que  puedan realizar / No son accesibles,
+8. 8.Otra",51955,0.07635555555555551,"   1","   7.0","    8",5.30081490104773,1.9352193308179033,8,"▁▁▃▂▁▁▇▁","F1.0","6"
+"r618_04","618.4.Razon para no usarlos -casa conunal","haven_labelled","1. 1.Estan muy congestionados,
+2. 2.No son  agradables,
+3. 3.No dan ganas de ir,
+4. 4.Por falta de tiempo,
+5. 5.No le dan permiso de usarlo,
+6. 6.Estan muy lejos,
+7. 7.No hay actividades que  puedan realizar / No son accesibles,
+8. 8.Otra",50021,0.11073777777777782,"   1","   6.0","    8",5.2287686627066945,1.8488572324805206,8,"▁▁▃▃▁▁▇▁","F1.0","6"
+"r618_05","618.5.Razon para no usarlos -otros","haven_labelled","1. 1.Estan muy congestionados,
+2. 2.No son  agradables,
+3. 3.No dan ganas de ir,
+4. 4.Por falta de tiempo,
+5. 5.No le dan permiso de usarlo,
+6. 6.Estan muy lejos,
+7. 7.No hay actividades que  puedan realizar / No son accesibles,
+8. 8.Otra",56146,0.0018488888888889,"   1","   4.0","    8",4.336538461538462,2.0883894334368804,8,"▂▃▇▆▂▁▆▂","F1.0","6"
+"r618_otr_01","Razon para no usarlos -cancha  deportiva especifique","numeric",NA,56141,0.001937777777777816,"1.0e+00","1.0e+00","     6",1.908256880733945,1.4690717931405841,NA,"▇▁▁▁▁","F2.0","6"
+"r618_otr_02","Razon para no usarlos -zona verde o parque  especifique","numeric",NA,56222,4.977777777778192e-4,"1.0e+00","1.0e+00","     3",1.5357142857142858,0.7444681351359534,NA,"▇▁▃▁▂","F2.0","6"
+"r618_otr_03","Razon para no usarlos -area de juegos para niños  especifique","numeric",NA,56139,0.0019733333333333825,"1.0e+00","3.0e+00","     6",2.8828828828828827,0.8711407227802859,NA,"▁▇▁▁▁","F2.0","6"
+"r618_otr_04","Razon para no usarlos -casa conunal  especifique","numeric",NA,56210,7.111111111111068e-4,"2.0e+00","4.0e+00","     7",4.125,1.1588566425355287,NA,"▁▇▁▁▁","F2.0","6"
+"r618_otr_05","Razon para no usarlos -otros  especifique","numeric",NA,56241,1.60000000000049e-4,"1.0e+00","1.0e+00","     2",1.1111111111111112,0.3333333333333333,NA,"▇▁▁▁▁","F2.0","6"
+"control619","Pregunta de contro","haven_labelled","1. 1.Hogar con sección de seguridad,
+8. 8.Por seguridad del entrevistador,
+9. 9.La persona entrevistada no dio información",0,1,"   1","   1.0","    9",1.0464888888888888,0.590529408890976,3,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r619_1","619.1.Alguien entró a su casa sin permiso y usando la fuerza robó o intentó robar algo?","haven_labelled","1. 1.Si,
+2. 2.No",348,0.9938133333333333,"   1","   2.0","    2",1.9839898393617401,0.12551540627069563,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r619_2","619.2. Robo o asalto en la calle, autobús, negocio u otro lugar público o privado?","haven_labelled","1. 1.Si,
+2. 2.No",348,0.9938133333333333,"   1","   2.0","    2",1.9766197989338485,0.15110915170378353,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r619_3","619.3.Robo de vehículo","haven_labelled","1. 1.Si,
+2. 2.No",348,0.9938133333333333,"   1","   2.0","    2",1.997459840435047,0.05033639318858761,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r619_4","619.4.Daño a la propiedad, incluyendo grafitis, rayones en vehículos,","haven_labelled","1. 1.Si,
+2. 2.No",348,0.9938133333333333,"   1","   2.0","    2",1.9862616722120854,0.11640373070870384,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r619_5","619.5.Engaño o estafa donde no le entregaron lo prometido","haven_labelled","1. 1.Si,
+2. 2.No",348,0.9938133333333333,"   1","   2.0","    2",1.9942756967550357,0.07544294143179947,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r619_6","619.6.Extorsión, o sea, amenazas para exigirle dinero o bienes o que hiciera algo","haven_labelled","1. 1.Si,
+2. 2.No",348,0.9938133333333333,"   1","   2.0","    2",1.9878716324997316,0.1094599677151673,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r619_7","619.7.Amenazas de alguien que le dijo que le iba a causar daño a usted, su familia, sus bienes o su negocio","haven_labelled","1. 1.Si,
+2. 2.No",348,0.9938133333333333,"   1","   2.0","    2",1.9861722299738829,0.11677673888033255,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r619_8","619.8.Lesiones físicas causadas por alguien que lo golpeó en una discusión o por actitud agresiva?","haven_labelled","1. 1.Si,
+2. 2.No",348,0.9938133333333333,"   1","   2.0","    2",1.9962434259954922,0.06117621354981418,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r619_9","619.9.Secuestro","haven_labelled","1. 1.Si,
+2. 2.No",348,0.9938133333333333,"   1","   2.0","    2",1.9990876891703337,0.0301909725554462,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r619_10","619.10.Ataque sexual o violación (aún si sólo fue intento)?","haven_labelled","1. 1.Si,
+2. 2.No",348,0.9938133333333333,"   1","   2.0","    2",1.998050159207184,0.04411432563166553,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r619_11","619.11.Otros","haven_labelled","1. 1.Si,
+2. 2.No",348,0.9938133333333333,"   1","   2.0","    2",1.9998747808665165,0.011189534994256747,2,"▁▁▁▁▁▁▁▇","F1.0","6"
+"r619_11_otr","Otros_especifique","numeric",NA,56243,1.2444444444448255e-4,"1.0e+00","1.0e+00","     1",1,0,NA,"▁▁▇▁▁","F2.0","6"
+"control620","Pregunta de contro","haven_labelled","1. 1.Hogar con sección de seguridad,
+8. 8.Por seguridad del entrevistador,
+9. 9.La persona entrevistada no dio información",0,1,"   1","   1.0","    9",1.0421333333333334,0.5653469120559669,3,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r620_1","620.1.Pueden salir de noche","haven_labelled","1. 1.Si,
+2. 2.No",312,0.9944533333333333,"   1","   1.0","    2",1.063910043262183,0.24459480605483325,2,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r620_2","620.2.Pueden tener un negocio","haven_labelled","1. 1.Si,
+2. 2.No",312,0.9944533333333333,"   1","   1.0","    2",1.068272015445672,0.25221436228289984,2,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r620_3","620.3.Pueden dejar sola la casa?","haven_labelled","1. 1.Si,
+2. 2.No",312,0.9944533333333333,"   1","   1.0","    2",1.0828059637455754,0.27559117162165714,2,"▇▁▁▁▁▁▁▁","F1.0","6"
+"r620_4","620.4.Pueden dejar salir a los niños a jugar?","haven_labelled","1. 1.Si,
+2. 2.No,
+3. 3.N/A",312,0.9944533333333333,"   1","   1.0","    3",1.7024920447638456,0.9269863685986962,3,"▇▁▁▁▁▁▁▅","F1.0","6"
+"r620_5","620.5.Pueden las mujeres transitar con","haven_labelled","1. 1.Si,
+2. 2.No,
+3. 3.N/A",312,0.9944533333333333,"   1","   1.0","    3",1.1113733061603919,0.41111330107228405,3,"▇▁▁▁▁▁▁▁","F1.0","6"
